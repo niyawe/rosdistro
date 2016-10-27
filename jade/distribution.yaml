@@ -35,7 +35,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/actionlib-release.git
-      version: 1.11.6-0
+      version: 1.11.7-0
     source:
       test_pull_requests: true
       type: git
@@ -277,7 +277,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/bond_core-release.git
-      version: 1.7.17-0
+      version: 1.7.18-0
     source:
       test_pull_requests: true
       type: git
@@ -409,7 +409,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/class_loader-release.git
-      version: 0.3.4-0
+      version: 0.3.6-0
     source:
       test_pull_requests: true
       type: git
@@ -451,7 +451,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/common_msgs-release.git
-      version: 1.12.4-0
+      version: 1.12.5-0
     source:
       test_pull_requests: true
       type: git
@@ -719,7 +719,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
-      version: 1.5.44-0
+      version: 1.5.45-0
     source:
       test_pull_requests: true
       type: git
@@ -955,7 +955,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/eigen_stl_containers-release.git
-      version: 0.1.4-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/ros/eigen_stl_containers.git
@@ -1061,6 +1061,21 @@ repositories:
       type: git
       url: https://github.com/freefloating-gazebo/freefloating_gazebo.git
       version: jade-devel
+    status: maintained
+  frontier_exploration:
+    doc:
+      type: git
+      url: https://github.com/paulbovbel/frontier_exploration.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/paulbovbel/frontier_exploration-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/paulbovbel/frontier_exploration.git
+      version: indigo-devel
     status: maintained
   fzi_icl_can:
     doc:
@@ -1361,14 +1376,16 @@ repositories:
       - grid_map_filters
       - grid_map_loader
       - grid_map_msgs
+      - grid_map_pcl
       - grid_map_ros
       - grid_map_rviz_plugin
       - grid_map_visualization
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ethz-asl/grid_map-release.git
-      version: 1.4.0-0
+      version: 1.4.1-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ethz-asl/grid_map.git
       version: master
@@ -2419,7 +2436,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.1.5-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -2441,7 +2458,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.0.4-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
@@ -3244,7 +3261,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/nodelet_core-release.git
-      version: 1.9.5-0
+      version: 1.9.7-0
     source:
       test_pull_requests: true
       type: git
@@ -3955,7 +3972,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/pluginlib-release.git
-      version: 1.10.3-0
+      version: 1.10.4-0
     source:
       test_pull_requests: true
       type: git
@@ -4145,7 +4162,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/asmodehn/pyros-test-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/asmodehn/pyros-test.git
@@ -5956,6 +5973,21 @@ repositories:
       url: https://github.com/3DVision-Stack/stream-manipulator-3D-release.git
       version: 0.1.6-0
     status: developed
+  swri_console:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/swri_console-release.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: master
+    status: developed
   teb_local_planner:
     doc:
       type: git
@@ -5965,7 +5997,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.5.1-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
@@ -6585,7 +6617,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/clearpath-gbp/vrpn_client_ros-release.git
-      version: 0.0.2-0
+      version: 0.1.0-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/vrpn_client_ros.git
@@ -6716,5 +6748,20 @@ repositories:
       type: git
       url: https://github.com/youbot/youbot_driver.git
       version: hydro-devel
+  zbar_ros:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/zbar_ros.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/clearpath-gbp/zbar_ros-release.git
+      version: 0.0.5-0
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/zbar_ros.git
+      version: hydro-devel
+    status: maintained
 type: distribution
 version: 2
