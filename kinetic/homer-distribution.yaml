@@ -6,6 +6,6 @@ release_platforms:
   ubuntu:
   - xenial
 repositories:
-
+  test:
 type: distribution
 version: 2
