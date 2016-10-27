@@ -5,5 +5,12 @@
 release_platforms:
   ubuntu:
   - xenial
+repositories:
+  homer_robbie_architecture:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_robbie_architecture.git
+      version: 1.0.1-0
 type: distribution
 version: 2
