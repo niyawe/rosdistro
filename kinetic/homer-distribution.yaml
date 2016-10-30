@@ -13,4 +13,6 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_robbie_architecture.git
       version: 1.0.1-0
 type: distribution
+tags:
+  - homer
 version: 2
