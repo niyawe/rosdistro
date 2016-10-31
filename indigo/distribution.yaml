@@ -2726,7 +2726,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics/fetch_pbd-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_pbd.git
@@ -4627,7 +4627,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common_msgs-release.git
-      version: 4.0.0-0
+      version: 4.1.0-0
     status: developed
   jsk_control:
     doc:
@@ -4732,7 +4732,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.3.25-0
+      version: 0.3.29-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_recognition.git
+      version: master
     status: developed
   jsk_robot:
     doc:
@@ -8103,7 +8107,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.18-0
+      version: 0.0.19-0
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
@@ -9359,7 +9363,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/intel-ros/realsense-release.git
-      version: 1.5.0-0
+      version: 1.6.0-0
     source:
       test_pull_requests: true
       type: git
@@ -9679,7 +9683,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
-      version: 2.3.0-0
+      version: 2.3.1-0
     source:
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
@@ -11417,7 +11421,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.1.17-0
+      version: 1.1.18-0
     source:
       test_pull_requests: true
       type: git
