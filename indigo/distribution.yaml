@@ -6017,7 +6017,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/mongodb_store.git
-      version: 0.1.22-1
+      version: 0.1.27-1
     source:
       type: git
       url: https://github.com/strands-project/mongodb_store.git
@@ -13094,7 +13094,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot-release.git
-      version: 2.3.11-0
+      version: 2.3.13-0
     source:
       test_pull_requests: true
       type: git
@@ -13108,20 +13108,16 @@ repositories:
       version: indigo
     release:
       packages:
-      - pano_core
-      - pano_py
-      - pano_ros
       - turtlebot_actions
       - turtlebot_apps
       - turtlebot_calibration
       - turtlebot_follower
       - turtlebot_navigation
-      - turtlebot_panorama
       - turtlebot_rapps
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot_apps-release.git
-      version: 2.3.3-0
+      version: 2.3.7-0
     source:
       test_pull_requests: true
       type: git
