@@ -58,6 +58,21 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_robbie_architecture.git
       version: 1.0.2-2
+  homer_vision:
+    release:
+      packages:
+      - homer_object_detection_msgs
+      - homer_or_libs
+      - homer_or_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_vision.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: git@gitlab.uni-koblenz.de:robbie/homer_vision.git
+      version: master
+    status: maintained
 tags:
 - homer
 type: distribution
