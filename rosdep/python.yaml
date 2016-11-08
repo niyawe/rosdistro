@@ -437,6 +437,7 @@ python-click:
     xenial: [python-click]
     yakkety: [python-click]
 python-colorama:
+  arch: [python2-colorama]
   debian: [python-colorama]
   fedora: [python-colorama]
   osx:
@@ -690,9 +691,11 @@ python-falcon:
 python-fcn-pip:
   osx:
     pip:
+      depends: [libhdf5-dev, liblapack-dev, leveldb]
       packages: [fcn]
   ubuntu:
     pip:
+      depends: [libhdf5-dev, liblapack-dev, leveldb]
       packages: [fcn]
 python-flake8:
   fedora:
@@ -758,6 +761,13 @@ python-freezegun-pip:
   ubuntu:
     pip:
       packages: [freezegun]
+python-future:
+  debian: [python-future]
+  fedora: [python-future]
+  osx:
+    pip:
+      packages: [future]
+  ubuntu: [python-future]
 python-fysom:
   debian:
     pip:
@@ -2418,6 +2428,7 @@ python-termcolor:
     xenial: [python-termcolor]
     xenial_python3: [python3-termcolor]
 python-texttable:
+  arch: [python2-texttable]
   debian:
     jessie: [python-texttable]
     sid: [python-texttable]
