@@ -217,6 +217,13 @@ repositories:
       url: https://github.com/ros/angles.git
       version: master
     status: maintained
+  aniso8601:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/aniso8601-rosrelease.git
+      version: 0.8.3-3
+    status: maintained
   app_manager:
     doc:
       type: git
@@ -421,6 +428,11 @@ repositories:
       type: git
       url: https://github.com/ethz-asl/asctec_mav_framework.git
       version: master
+  asr_msgs:
+    doc:
+      type: git
+      url: https://github.com/asr-ros/asr_msgs.git
+      version: master
   astra_camera:
     doc:
       type: git
@@ -480,12 +492,15 @@ repositories:
       - aubo_i5_moveit_config
       - aubo_kinematics
       - aubo_msgs
+      - aubo_new_driver
+      - aubo_panel
       - aubo_robot
       - aubo_trajectory
+      - aubo_trajectory_filters
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/auboliuxin/aubo_robot-release.git
-      version: 0.2.1-0
+      version: 0.3.6-0
     source:
       type: git
       url: https://github.com/auboliuxin/aubo_robot.git
@@ -2832,6 +2847,13 @@ repositories:
       url: https://github.com/Ikergune/firos.git
       version: master
     status: maintained
+  flask_cors:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/flask-cors-rosrelease.git
+      version: 3.0.2-1
+    status: developed
   flatbuffers:
     release:
       tags:
@@ -6235,7 +6257,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_msgs-release.git
-      version: 0.7.4-0
+      version: 0.7.5-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
@@ -6333,7 +6355,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-planning/moveit_robots.git
-      version: master
+      version: indigo-devel
     release:
       packages:
       - atlas_moveit_config
@@ -6348,11 +6370,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/moveit_robots-release.git
-      version: 1.0.6-0
+      version: 1.0.7-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_robots.git
-      version: master
+      version: indigo-devel
     status: maintained
   moveit_ros:
     doc:
@@ -8868,7 +8890,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyros-rosrelease.git
-      version: 0.3.0-0
+      version: 0.3.0-2
     source:
       type: git
       url: https://github.com/asmodehn/pyros.git
