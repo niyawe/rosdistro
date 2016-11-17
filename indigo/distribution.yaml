@@ -599,7 +599,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/backports.ssl_match_hostname-rosrelease.git
-      version: 3.5.0-1
+      version: 3.5.0-2
     status: maintained
   barrett_hand:
     doc:
@@ -1268,6 +1268,7 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/click-rosrelease.git
       version: 6.2.0-0
+    status: maintained
   cmake_modules:
     release:
       tags:
@@ -2853,6 +2854,13 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/flask-cors-rosrelease.git
       version: 3.0.2-1
+    status: developed
+  flask_reverse_proxy:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/flask-reverse-proxy-rosrelease.git
+      version: 0.2.0-1
     status: developed
   flatbuffers:
     release:
