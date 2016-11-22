@@ -223,6 +223,13 @@ repositories:
       url: https://github.com/po1/axcli-release.git
       version: 0.1.0-0
     status: maintained
+  backports_ssl_match_hostname:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/backports.ssl_match_hostname-rosrelease.git
+      version: 3.5.0-0
+    status: maintained
   battery_monitor_rmp:
     doc:
       type: git
@@ -407,6 +414,13 @@ repositories:
       url: https://github.com/asmodehn/catkin_pip.git
       version: jade
     status: developed
+  certifi:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/certifi-rosrelease.git
+      version: 2015.11.20-0
+    status: maintained
   class_loader:
     doc:
       type: git
@@ -422,6 +436,13 @@ repositories:
       type: git
       url: https://github.com/ros/class_loader.git
       version: indigo-devel
+    status: maintained
+  click:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/click-rosrelease.git
+      version: 6.2.0-0
     status: maintained
   cmake_modules:
     doc:
@@ -598,6 +619,17 @@ repositories:
       type: git
       url: https://github.com/AutonomyLab/create_autonomy.git
       version: indigo-devel
+    status: developed
+  csapex:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/betwo/csapex-release.git
+      version: 0.9.3-0
+    source:
+      type: git
+      url: https://github.com/cogsys-tuebingen/csapex.git
+      version: master
     status: developed
   csm:
     doc:
@@ -1064,6 +1096,27 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/introlab/find_object_2d-release.git
       version: 0.5.1-0
+    status: maintained
+  flask_cors:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/flask-cors-rosrelease.git
+      version: 3.0.2-0
+    status: developed
+  flask_restful:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/flask-restful-rosrelease.git
+      version: 0.3.4-0
+    status: maintained
+  flask_reverse_proxy:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/flask-reverse-proxy-rosrelease.git
+      version: 0.2.0-0
     status: maintained
   force_torque_tools:
     doc:
@@ -2071,7 +2124,11 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.3.25-0
+      version: 0.3.29-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_recognition.git
+      version: master
     status: developed
   jsk_roseus:
     doc:
@@ -2860,13 +2917,14 @@ repositories:
       packages:
       - mrpt_ekf_slam_2d
       - mrpt_ekf_slam_3d
+      - mrpt_graphslam_2d
       - mrpt_icp_slam_2d
       - mrpt_rbpf_slam
       - mrpt_slam
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_slam-release.git
-      version: 0.1.3-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
@@ -4204,6 +4262,13 @@ repositories:
       type: git
       url: https://github.com/joselusl/pugixml.git
       version: master
+    status: developed
+  pyros:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/pyros-rosrelease.git
+      version: 0.3.0-0
     status: developed
   pyros_config:
     doc:
@@ -6224,6 +6289,13 @@ repositories:
       type: git
       url: https://github.com/tu-darmstadt-ros-pkg/topic_proxy.git
       version: master
+  tornado:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/tornado-rosrelease.git
+      version: 4.2.1-0
+    status: maintained
   trac_ik:
     doc:
       type: git
@@ -6758,6 +6830,13 @@ repositories:
       url: https://github.com/RobotWebTools/web_video_server.git
       version: develop
     status: maintained
+  webargs:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/webargs-rosrelease.git
+      version: 1.3.4-0
+    status: maintained
   webtest:
     doc:
       type: git
@@ -6767,7 +6846,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/asmodehn/webtest-rosrelease.git
-      version: 2.0.18-0
+      version: 2.0.18-1
     status: maintained
   wireless:
     release:
