@@ -445,6 +445,13 @@ repositories:
       url: https://github.com/asmodehn/catkin_pip.git
       version: devel
     status: developed
+  certifi:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/asmodehn/certifi-rosrelease.git
+      version: 2015.11.20-0
+    status: maintained
   class_loader:
     doc:
       type: git
@@ -460,6 +467,13 @@ repositories:
       type: git
       url: https://github.com/ros/class_loader.git
       version: indigo-devel
+    status: maintained
+  click:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/asmodehn/click-rosrelease.git
+      version: 6.2.0-0
     status: maintained
   cmake_modules:
     doc:
@@ -1016,6 +1030,28 @@ repositories:
       url: https://github.com/ros/executive_smach.git
       version: indigo-devel
     status: maintained
+  fiducials:
+    doc:
+      type: git
+      url: https://github.com/UbiquityRobotics/fiducials.git
+      version: kinetic-devel
+    release:
+      packages:
+      - aruco_detect
+      - fiducial_detect
+      - fiducial_lib
+      - fiducial_pose
+      - fiducial_slam
+      - fiducials
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/UbiquityRobotics-release/fiducials-release.git
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/UbiquityRobotics/fiducials.git
+      version: kinetic-devel
+    status: developed
   filters:
     doc:
       type: git
@@ -2524,7 +2560,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 0.9.2-1
+      version: 0.9.3-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -2640,13 +2676,14 @@ repositories:
       packages:
       - mrpt_ekf_slam_2d
       - mrpt_ekf_slam_3d
+      - mrpt_graphslam_2d
       - mrpt_icp_slam_2d
       - mrpt_rbpf_slam
       - mrpt_slam
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_slam-release.git
-      version: 0.1.3-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
@@ -3148,12 +3185,32 @@ repositories:
       url: https://github.com/OctoMap/octomap_rviz_plugins.git
       version: kinetic-devel
     status: maintained
+  omip:
+    doc:
+      type: git
+      url: https://github.com/tu-rbo/omip.git
+      version: kinetic
+    source:
+      type: git
+      url: https://github.com/tu-rbo/omip.git
+      version: kinetic
+    status: maintained
+  omip_msgs:
+    doc:
+      type: git
+      url: https://github.com/tu-rbo/omip_msgs.git
+      version: kinetic
+    source:
+      type: git
+      url: https://github.com/tu-rbo/omip_msgs.git
+      version: kinetic
+    status: maintained
   ompl:
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/ompl-release.git
-      version: 1.2.1-0
+      version: 1.2.1-1
     status: maintained
   open_karto:
     doc:
@@ -3634,6 +3691,13 @@ repositories:
       url: https://github.com/pr2/pr2_common.git
       version: kinetic-devel
     status: maintained
+  pyros:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/asmodehn/pyros-rosrelease.git
+      version: 0.3.0-1
+    status: developed
   pyros_config:
     doc:
       type: git
@@ -4023,7 +4087,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-Framework-msgs-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-Framework-msgs.git
@@ -4043,7 +4107,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-Framework-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-Framework.git
@@ -4695,7 +4759,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/rosserial-release.git
-      version: 0.7.4-0
+      version: 0.7.5-0
     source:
       type: git
       url: https://github.com/ros-drivers/rosserial.git
@@ -5262,6 +5326,13 @@ repositories:
       url: https://github.com/swri-robotics/swri_console.git
       version: master
     status: developed
+  tblib:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/asmodehn/tblib-rosrelease.git
+      version: 1.2.0-1
+    status: maintained
   teb_local_planner:
     doc:
       type: git
@@ -6126,6 +6197,13 @@ repositories:
       url: https://github.com/jihoonl/waypoint.git
       version: master
     status: developed
+  webtest:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/asmodehn/webtest-rosrelease.git
+      version: 2.0.18-0
+    status: maintained
   wireless:
     doc:
       type: git

@@ -268,6 +268,10 @@ python-bitstring-pip:
   ubuntu:
     pip:
       packages: [bitstring]
+python-blinker:
+  debian: [python-blinker]
+  fedora: [python-blinker]
+  ubuntu: [python-blinker]
 python-bloom:
   fedora: [python-bloom]
   ubuntu:
@@ -905,6 +909,7 @@ python-imaging:
     '22': [python-pillow, python-pillow-qt]
     '23': [python-pillow, python-pillow-qt]
     '24': [python-pillow, python-pillow-qt]
+    '25': [python-pillow, python-pillow-qt]
     beefy: [python-imaging]
     heisenbug: [python-pillow, python-pillow-qt]
     schrödinger’s: [python-pillow, python-pillow-qt]
@@ -2451,6 +2456,41 @@ python-texttable:
 python-tftpy:
   fedora: [python-tftpy]
   ubuntu: [python-tftpy]
+python-theano:
+  arch: [python-theano]
+  debian:
+    jessie:
+      pip:
+        packages: [Theano]
+    stretch: [python-theano]
+  fedora: [python-theano]
+  osx:
+    pip:
+      packages: [Theano]
+  ubuntu:
+    precise:
+      pip:
+        packages: [Theano]
+    saucy:
+      pip:
+        packages: [Theano]
+    trusty:
+      pip:
+        packages: [Theano]
+    utopic:
+      pip:
+        packages: [Theano]
+    vivid:
+      pip:
+        packages: [Theano]
+    wily:
+      pip:
+        packages: [Theano]
+    xenial:
+      pip:
+        packages: [Theano]
+    yakkety: [python-theano]
+    zesty: [python-theano]
 python-tilestache:
   debian: [tilestache]
   fedora:
@@ -2705,6 +2745,7 @@ python-webtest:
   fedora: [python-webtest]
   ubuntu: [python-webtest]
 python-werkzeug:
+  debian: [python-werkzeug]
   fedora: [python-werkzeug]
   ubuntu: [python-werkzeug]
 python-ws4py-pip:
