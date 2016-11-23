@@ -1607,6 +1607,8 @@ libgazebo5-dev:
 libgazebo7-dev:
   arch: [gazebo]
   debian: [libgazebo7-dev]
+  fedora:
+    '25': [gazebo-devel]
   gentoo: [sci-electronics/gazebo]
   ubuntu: [libgazebo7-dev]
 libgeographiclib-dev:
@@ -2466,6 +2468,8 @@ libqt5-widgets:
   gentoo: [dev-qt/qtwidgets]
   slackware: [qt5]
   ubuntu: [libqt5widgets5]
+libqt5x11extras5-dev:
+  ubuntu: [libqt5x11extras5-dev]
 libqtgui4:
   arch: [qt4]
   debian: [libqtgui4]
@@ -3433,6 +3437,10 @@ python-opencv:
   fedora: [opencv-python]
   gentoo: [media-libs/opencv]
   ubuntu: [python-opencv]
+python-pyaudio:
+  debian: [python-pyaudio]
+  fedora: [pyaudio]
+  ubuntu: [python-pyaudio]
 python-pydot:
   fedora: [pydot]
   gentoo:
