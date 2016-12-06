@@ -60,10 +60,13 @@ repositories:
       version: 1.0.2-2
   homer_robot_face:
     release:
+      packages:
+      - homer_mary_tts
+      - homer_robot_face
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_robot_face.git
-      version: 1.0.10-0
+      version: 1.0.12-0
     source:
       type: git
       url: git@gitlab.uni-koblenz.de:robbie/homer_robot_face.git
