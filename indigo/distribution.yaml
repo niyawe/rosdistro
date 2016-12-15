@@ -380,6 +380,20 @@ repositories:
       url: https://github.com/voxel-dot-at/argos3d_p100_ros_pkg.git
       version: master
   arni:
+    release:
+      packages:
+      - arni_core
+      - arni_countermeasure
+      - arni_gui
+      - arni_msgs
+      - arni_nodeinterface
+      - arni_processing
+      - rqt_arni_gui_detail
+      - rqt_arni_gui_overview
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ROS-PSE/arni-release.git
+      version: 1.1.3-0
     source:
       type: git
       url: https://github.com/ROS-PSE/arni.git
@@ -478,6 +492,16 @@ repositories:
       url: https://github.com/GT-RAIL/async_web_server_cpp.git
       version: develop
     status: maintained
+  ati_force_torque:
+    doc:
+      type: git
+      url: https://github.com/iirob/ati_force_torque.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/iirob/ati_force_torque.git
+      version: indigo-devel
+    status: developed
   aubo_robot:
     doc:
       type: git
@@ -485,7 +509,6 @@ repositories:
       version: indigo-devel
     release:
       packages:
-      - aubo_control
       - aubo_description
       - aubo_driver
       - aubo_gazebo
@@ -494,7 +517,6 @@ repositories:
       - aubo_msgs
       - aubo_new_driver
       - aubo_panel
-      - aubo_robot
       - aubo_trajectory
       - aubo_trajectory_filters
       tags:
@@ -1478,7 +1500,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_extern-release.git
-      version: 0.6.9-0
+      version: 0.6.10-0
     source:
       type: git
       url: https://github.com/ipa320/cob_extern.git
@@ -1702,7 +1724,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/common_tutorials.git
-      version: hydro-devel
+      version: indigo-devel
     release:
       packages:
       - actionlib_tutorials
@@ -1713,11 +1735,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/common_tutorials-release.git
-      version: 0.1.8-0
+      version: 0.1.10-1
     source:
       type: git
       url: https://github.com/ros/common_tutorials.git
-      version: hydro-devel
+      version: indigo-devel
     status: maintained
   concert_scheduling:
     doc:
@@ -2147,6 +2169,16 @@ repositories:
       type: git
       url: https://github.com/dji-sdk/Onboard-SDK-ROS.git
       version: '3.1'
+    status: maintained
+  dji_ronin:
+    doc:
+      type: git
+      url: https://github.com/Itamare4/dji_ronin.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/Itamare4/dji_ronin.git
+      version: master
     status: maintained
   dlut_laser:
     doc:
@@ -3072,10 +3104,12 @@ repositories:
       url: https://github.com/UTNuclearRoboticsPublic/gauges.git
       version: master
     release:
+      packages:
+      - rqt_gauges
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/UTNuclearRoboticsPublic/gauges-release.git
-      version: 1.0.2-0
+      version: 1.0.7-0
     source:
       type: git
       url: https://github.com/UTNuclearRoboticsPublic/gauges.git
@@ -4850,7 +4884,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.3.29-0
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -4925,7 +4959,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.34-0
+      version: 2.0.0-0
     status: developed
   jskeus:
     doc:
@@ -8809,7 +8843,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_robot-release.git
-      version: 1.6.16-4
+      version: 1.6.23-0
     source:
       type: git
       url: https://github.com/pr2/pr2_robot.git
@@ -10416,19 +10450,21 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
-      version: indigo_release_candidate
+      version: indigo
     release:
       packages:
+      - can_msgs
       - canopen_402
       - canopen_chain_node
       - canopen_master
       - canopen_motor_node
       - ros_canopen
+      - socketcan_bridge
       - socketcan_interface
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_canopen-release.git
-      version: 0.6.4-0
+      version: 0.6.5-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
@@ -11156,7 +11192,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://bitbucket.org/rospeex/rospeex-release.git
-      version: 2.14.7-0
+      version: 2.15.0-0
     source:
       type: git
       url: https://bitbucket.org/rospeex/rospeex.git
@@ -11444,7 +11480,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pschillinger/rqt_launchtree-release.git
-      version: 0.1.4-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/pschillinger/rqt_launchtree.git
@@ -13110,6 +13146,21 @@ repositories:
       url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
       version: indigo-devel
     status: maintained
+  tele_dir:
+    doc:
+      type: git
+      url: https://github.com/rdelgadov/tele_dir.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/rdelgadov/tele_dir-release.git
+      version: 0.0.2-2
+    source:
+      type: git
+      url: https://github.com/rdelgadov/tele_dir.git
+      version: master
+    status: maintained
   teleop_tools:
     doc:
       type: git
@@ -13125,7 +13176,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git

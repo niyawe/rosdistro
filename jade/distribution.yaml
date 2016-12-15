@@ -187,7 +187,6 @@ repositories:
       version: jade-devel
     release:
       packages:
-      - aubo_control
       - aubo_description
       - aubo_driver
       - aubo_gazebo
@@ -196,7 +195,6 @@ repositories:
       - aubo_msgs
       - aubo_new_driver
       - aubo_panel
-      - aubo_robot
       - aubo_trajectory
       - aubo_trajectory_filters
       tags:
@@ -1222,10 +1220,12 @@ repositories:
       url: https://github.com/UTNuclearRoboticsPublic/gauges.git
       version: master
     release:
+      packages:
+      - rqt_gauges
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/UTNuclearRoboticsPublic/gauges-release.git
-      version: 1.0.2-0
+      version: 1.0.7-0
     source:
       type: git
       url: https://github.com/UTNuclearRoboticsPublic/gauges.git
@@ -1246,7 +1246,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.6.0-0
+      version: 2.6.1-0
     source:
       test_pull_requests: true
       type: git
@@ -2186,7 +2186,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.34-0
+      version: 2.0.0-0
     status: developed
   jskeus:
     doc:
@@ -2930,7 +2930,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
-      version: 0.1.13-0
+      version: 0.1.16-0
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -4179,6 +4179,21 @@ repositories:
       url: https://github.com/ros-drivers/pointgrey_camera_driver.git
       version: master
     status: maintained
+  pose_cov_ops:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/pose_cov_ops-release.git
+      version: 0.1.5-0
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
+      version: master
+    status: maintained
   power_msgs:
     doc:
       type: git
@@ -4889,6 +4904,30 @@ repositories:
       url: https://github.com/ros/ros.git
       version: jade-devel
     status: maintained
+  ros_canopen:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/ros_canopen.git
+      version: jade
+    release:
+      packages:
+      - can_msgs
+      - canopen_402
+      - canopen_chain_node
+      - canopen_master
+      - canopen_motor_node
+      - ros_canopen
+      - socketcan_bridge
+      - socketcan_interface
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-industrial-release/ros_canopen-release.git
+      version: 0.7.0-0
+    source:
+      type: git
+      url: https://github.com/ros-industrial/ros_canopen.git
+      version: jade-devel
+    status: maintained
   ros_comm:
     doc:
       type: git
@@ -5363,7 +5402,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://bitbucket.org/rospeex/rospeex-release.git
-      version: 2.14.6-0
+      version: 2.15.0-0
     source:
       type: git
       url: https://bitbucket.org/rospeex/rospeex.git
@@ -5549,7 +5588,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/pschillinger/rqt_launchtree-release.git
-      version: 0.1.4-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/pschillinger/rqt_launchtree.git
@@ -6231,7 +6270,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
