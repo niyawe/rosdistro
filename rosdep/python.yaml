@@ -760,6 +760,12 @@ python-flask-restful:
     xenial: [python-flask-restful]
     yakkety: [python-flask-restful]
 python-freezegun-pip:
+  debian:
+    pip:
+      packages: [freezegun]
+  fedora:
+    pip:
+      packages: [freezegun]
   osx:
     pip:
       packages: [freezegun]
@@ -798,7 +804,17 @@ python-fysom:
   ubuntu:
     pip:
       packages: [fysom]
-python-gdown:
+python-gcloud-pip:
+  ubuntu:
+    pip:
+      packages: [gcloud]
+python-gdown-pip:
+  debian:
+    pip:
+      packages: [gdown]
+  fedora:
+    pip:
+      packages: [gdown]
   osx:
     pip:
       packages: [gdown]
@@ -970,6 +986,9 @@ python-inject-pip:
   ubuntu:
     pip:
       packages: [inject]
+python-ipdb:
+  ubuntu:
+    packages: [python-ipdb]
 python-itsdangerous:
   fedora: [python-itsdangerous]
   ubuntu: [python-itsdangerous]
@@ -1034,6 +1053,16 @@ python-libpgm-pip:
   ubuntu:
     pip:
       packages: [libpgm]
+python-lindypy-pip:
+  debian:
+    pip:
+      packages: [lindypy]
+  fedora:
+    pip:
+      packages: [lindypy]
+  ubuntu:
+    pip:
+      packages: [lindypy]
 python-lttngust:
   debian:
     pip:
@@ -1057,6 +1086,10 @@ python-mapnik:
   debian: [python-mapnik]
   fedora: [mapnik-python]
   ubuntu: [python-mapnik]
+python-markdown:
+  debian: [python-markdown]
+  fedora: [python-markdown]
+  ubuntu: [python-markdown]
 python-marshmallow:
   fedora: [python-marshmallow]
   ubuntu:
@@ -1604,6 +1637,12 @@ python-pygame:
   fedora: [pygame-devel]
   ubuntu: [python-pygame]
 python-pygithub3:
+  debian:
+    pip:
+      packages: [pygithub3]
+  fedora:
+    pip:
+      packages: [pygithub3]
   ubuntu:
     pip:
       packages: [pygithub3]
@@ -2349,6 +2388,12 @@ python-sklearn:
     wily: [python-sklearn]
     xenial: [python-sklearn]
 python-slacker-cli:
+  debian:
+    pip:
+      packages: [slacker-cli]
+  fedora:
+    pip:
+      packages: [slacker-cli]
   osx:
     pip:
       packages: [slacker-cli]
@@ -2498,7 +2543,9 @@ python-texttable:
     precise:
       pip:
         packages: [texttable]
-    saucy: [python-texttable]
+    saucy:
+      pip:
+        packages: [texttable]
     trusty: [python-texttable]
     utopic: [python-texttable]
     vivid: [python-texttable]

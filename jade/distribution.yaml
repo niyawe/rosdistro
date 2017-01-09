@@ -131,6 +131,12 @@ repositories:
       url: https://github.com/AutonomyLab/ardrone_autonomy.git
       version: indigo-devel
     status: developed
+  arni:
+    source:
+      type: git
+      url: https://github.com/ROS-PSE/arni.git
+      version: master
+    status: maintained
   aruco_mapping:
     doc:
       type: git
@@ -821,7 +827,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/dynpick_driver-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/tork-a/dynpick_driver.git
@@ -1035,7 +1041,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.21.0-0
+      version: 9.22.0-0
     status: developed
   executive_smach:
     doc:
@@ -1075,6 +1081,20 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/fcl-release.git
       version: 0.3.3-0
+    status: maintained
+  fetch_gazebo:
+    doc:
+      type: git
+      url: https://github.com/fetchrobotics/fetch_gazebo.git
+      version: gazebo5
+    release:
+      packages:
+      - fetch_gazebo
+      - fetch_gazebo_demo
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/fetchrobotics-gbp/fetch_gazebo-release.git
+      version: 0.8.0-0
     status: maintained
   fetch_ros:
     doc:
@@ -1553,6 +1573,16 @@ repositories:
       type: git
       url: https://github.com/g/grizzly.git
       version: indigo-devel
+    status: maintained
+  haf_grasping:
+    doc:
+      type: git
+      url: https://github.com/davidfischinger/haf_grasping.git
+      version: jade
+    source:
+      type: git
+      url: https://github.com/davidfischinger/haf_grasping.git
+      version: jade
     status: maintained
   hakuto:
     release:
@@ -2084,7 +2114,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.1.2-1
+      version: 2.2.2-0
     source:
       test_commits: false
       type: git
@@ -2186,7 +2216,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 2.0.0-0
+      version: 2.0.1-0
     status: developed
   jskeus:
     doc:
@@ -2197,7 +2227,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.13-1
+      version: 1.0.14-0
     status: developed
   katana_driver:
     doc:
@@ -2958,6 +2988,11 @@ repositories:
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
       version: master
     status: maintained
+  msp:
+    doc:
+      type: git
+      url: https://github.com/christianrauch/msp.git
+      version: master
   multimaster_fkie:
     doc:
       type: git
@@ -3015,6 +3050,23 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
+      version: master
+    status: maintained
+  nao_dcm_robot:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/nao_dcm_robot.git
+      version: master
+    release:
+      packages:
+      - nao_dcm_bringup
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-naoqi/nao_dcm_robot-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/nao_dcm_robot.git
       version: master
     status: maintained
   nao_extras:
@@ -3976,7 +4028,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-naoqi/pepper_dcm_robot-release.git
-      version: 0.0.1-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/ros-naoqi/pepper_dcm_robot.git
@@ -4421,6 +4473,7 @@ repositories:
       url: https://github.com/ros-gbp/qt_gui_core-release.git
       version: 0.2.31-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
       version: groovy-devel
@@ -4725,7 +4778,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/robot_model-release.git
-      version: 1.11.11-0
+      version: 1.11.12-0
     source:
       test_pull_requests: true
       type: git
@@ -4783,7 +4836,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/clearpath-gbp/robot_upstart-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/robot_upstart.git
@@ -5500,7 +5553,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/kintzhao/rplidar_ros-release.git
-      version: 1.5.5-0
+      version: 1.5.7-0
     source:
       type: git
       url: https://github.com/robopeak/rplidar_ros.git
@@ -5605,7 +5658,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ethz-asl/rqt_multiplot_plugin-release.git
-      version: 0.0.5-1
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/ethz-asl/rqt_multiplot_plugin.git
@@ -5976,7 +6029,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.9-0
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/uos/sick_tim.git
@@ -6377,7 +6430,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/traclabs/trac_ik-release.git
-      version: 1.4.3-0
+      version: 1.4.5-0
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
@@ -6457,7 +6510,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/anqixu/ueye_cam-release.git
-      version: 1.0.15-0
+      version: 1.0.16-0
     source:
       type: git
       url: https://github.com/anqixu/ueye_cam.git
