@@ -51,7 +51,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_mapping.git
-      version: 0.1.10-0
+      version: 0.1.11-0
     source:
       type: git
       url: git@gitlab.uni-koblenz.de:robbie/homer_mapping.git
@@ -117,7 +117,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_vision.git
-      version: 0.1.15-0
+      version: 0.1.15-1
     source:
       type: git
       url: git@gitlab.uni-koblenz.de:robbie/homer_vision.git
