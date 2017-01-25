@@ -82,10 +82,6 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_tools.git
       version: 0.1.1-0
-    source:
-      type: git
-      url: git@gitlab.uni-koblenz.de:robbie/homer_tools.git
-      version: master
     status: maintained
   homer_vision:
     release:
