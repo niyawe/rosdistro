@@ -75,10 +75,6 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_robot_face.git
       version: 1.0.14-0
-    source:
-      type: git
-      url: git@gitlab.uni-koblenz.de:robbie/homer_robot_face.git
-      version: master
     status: maintained
   homer_tools:
     release:
