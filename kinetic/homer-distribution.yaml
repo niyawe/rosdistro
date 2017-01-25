@@ -27,10 +27,6 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_hardware.git
       version: 0.1.8-0
-    source:
-      type: git
-      url: git@gitlab.uni-koblenz.de:robbie/homer_hardware.git
-      version: master
     status: developed
   homer_libraries:
     release:
