@@ -325,6 +325,7 @@ boost:
     jessie: [libboost-all-dev]
     sid: [libboost-all-dev]
     squeeze: [libboost1.42-all-dev]
+    stretch: [libboost-all-dev]
     wheezy: [libboost-all-dev]
   fedora: [boost-devel]
   freebsd: [boost-python-libs]
@@ -376,6 +377,12 @@ boost:
       apt:
         packages: [libboost-all-dev]
     xenial:
+      apt:
+        packages: [libboost-all-dev]
+    yakkety:
+      apt:
+        packages: [libboost-all-dev]
+    zesty:
       apt:
         packages: [libboost-all-dev]
 box2d-dev:
@@ -447,10 +454,9 @@ ca-certificates:
   fedora: [ca-certificates]
   ubuntu: [ca-certificates]
 can-utils:
-  ubuntu:
-    trusty: [can-utils]
-    utopic: [can-utils]
-    vivid: [can-utils]
+  debian: [can-utils]
+  fedora: [can-utils]
+  ubuntu: [can-utils]
 catkin_pkg:
   gentoo:
     portage:
@@ -495,11 +501,25 @@ cmake:
     slackpkg:
       packages: [cmake]
   ubuntu: [cmake]
+coinor-libcbc-dev:
+  ubuntu: [coinor-libcbc-dev]
+coinor-libcbc3:
+  ubuntu: [coinor-libcbc3]
+coinor-libcgl-dev:
+  ubuntu: [coinor-libcgl-dev]
+coinor-libclp-dev:
+  ubuntu: [coinor-libclp-dev]
+coinor-libcoinutils-dev:
+  ubuntu: [coinor-libcoinutils-dev]
 coinor-libipopt-dev:
   arch: [coinor-all]
   debian: [coinor-libipopt-dev]
   fedora: [coin-or-CoinUtils-devel]
   ubuntu: [coinor-libipopt-dev]
+coinor-libosi-dev:
+  debian: [coinor-libosi-dev]
+  fedora: [coin-or-Osi-devel]
+  ubuntu: [coinor-libosi-dev]
 collada-dom:
   arch: [collada-dom]
   debian: [libcollada-dom2.4-dp-dev]
@@ -795,6 +815,8 @@ fltk:  # Consider using the libfltk-dev and fluid (fltk runtime) keys instead.
     trusty: [fluid, libfltk1.1-dev]
     utopic: [fluid, libfltk1.3-dev]
     vivid: [fluid, libfltk1.3-dev]
+    wily: [fluid, libfltk1.3-dev]
+    xenial: [fluid, libfltk1.3-dev]
 fluid:
   arch: [fltk]
   debian: [libfltk1.1-dev]
@@ -816,6 +838,9 @@ freetype:
   fedora: [freetype]
   gentoo: [media-libs/freetype]
   macports: [freetype]
+fsharp:
+  debian: [fsharp]
+  ubuntu: [fsharp]
 fswebcam:
   ubuntu: [fswebcam]
 ftdi-eeprom:
@@ -1149,6 +1174,12 @@ hostname:
   fedora: [hostname]
   gentoo: [dev-haskell/hostname]
   ubuntu: [hostname]
+htop:
+  arch: [htop]
+  debian: [htop]
+  fedora: [htop]
+  gentoo: [htop]
+  ubuntu: [htop]
 i2c-tools:
   debian: [i2c-tools]
   fedora: [i2c-tools]
@@ -1276,6 +1307,10 @@ language-pack-de:
 language-pack-en:
   fedora: [filesystem]
   ubuntu: [language-pack-en]
+lcov:
+  debian: [lcov]
+  fedora: [lcov]
+  ubuntu: [lcov]
 leveldb:
   debian: [libleveldb-dev]
   fedora: [libleveldb-devel]
@@ -1426,13 +1461,7 @@ libconsole-bridge-dev:
   fedora: [console-bridge-devel]
   gentoo: [dev-libs/console_bridge]
   slackware: [console_bridge]
-  ubuntu:
-    saucy: [libconsole-bridge-dev]
-    trusty: [libconsole-bridge-dev]
-    utopic: [libconsole-bridge-dev]
-    vivid: [libconsole-bridge-dev]
-    wily: [libconsole-bridge-dev]
-    xenial: [libconsole-bridge-dev]
+  ubuntu: [libconsole-bridge-dev]
 libdbus-dev:
   arch: [dbus-core]
   debian: [libdbus-1-dev]
@@ -1510,6 +1539,10 @@ libfcl-dev:
   debian: [libfcl-0.5-dev]
   fedora: [fcl-devel]
   ubuntu: [libfcl-0.5-dev]
+libffi-dev:
+  debian: [libffi-dev]
+  fedora: [libffi-devel]
+  ubuntu: [libffi-dev]
 libfftw3:
   arch: [fftw]
   debian: [libfftw3-3, libfftw3-dev]
@@ -1808,6 +1841,10 @@ libhdf5-dev:
   debian: [libhdf5-dev]
   fedora: [hdf5-devel]
   ubuntu: [libhdf5-dev]
+libi2c-dev:
+  arch: [linux-api-headers]
+  debian: [libi2c-dev]
+  ubuntu: [libi2c-dev]
 libicu-dev:
   fedora: [libicu-devel]
   ubuntu: [libicu-dev]
@@ -2152,6 +2189,30 @@ libopenscenegraph:
     portage:
       packages: [dev-games/openscenegraph]
   ubuntu: [openscenegraph, libopenscenegraph-dev]
+libopenvdb:
+  arch: [openvdb]
+  debian:
+    jessie: [libopenvdb2.3]
+    stretch: [libopenvdb3.2]
+  gentoo:
+    portage:
+      packages: [media-gfx/openvdb]
+  ubuntu:
+    saucy: [libopenvdb1.1]
+    trusty: [libopenvdb2.1]
+    utopic: [libopenvdb2.3]
+    vivid: [libopenvdb2.3]
+    wily: [libopenvdb3.0]
+    xenial: [libopenvdb3.1]
+    yakkety: [libopenvdb3.1]
+    zesty: [libopenvdb3.2]
+libopenvdb-dev:
+  arch: [openvdb]
+  debian: [libopenvdb-dev]
+  gentoo:
+    portage:
+      packages: [media-gfx/openvdb]
+  ubuntu: [libopenvdb-dev]
 libosmesa6-dev:
   arch: [mesa]
   debian: [libosmesa6-dev]
@@ -3069,6 +3130,10 @@ libzmq3-dev:
   ubuntu: [libzmq3-dev]
 libzmqpp3:
   ubuntu: [libzmqpp3]
+linphone:
+  debian: [linphone]
+  fedora: [linphone]
+  ubuntu: [linphone]
 linux-headers-generic:
   arch: [linux-headers]
   debian:
@@ -3084,6 +3149,7 @@ log4cxx:
     jessie: [liblog4cxx10-dev]
     sid: [liblog4cxx10-dev]
     squeeze: [liblog4cxx10-dev]
+    stretch: [liblog4cxx10-dev]
     wheezy: [liblog4cxx10-dev]
   fedora: [log4cxx-devel]
   freebsd: [log4cxx]
@@ -3133,6 +3199,8 @@ lz4:
     vivid: [liblz4-dev]
     wily: [liblz4-dev]
     xenial: [liblz4-dev]
+    yakkety: [liblz4-dev]
+    zesty: [liblz4-dev]
 m4:
   arch: [m4]
   debian: [m4]
@@ -3193,6 +3261,9 @@ mongodb-dev:
     trusty: [libmongo-client-dev, mongodb-dev]
     utopic: [libmongo-client-dev]
     vivid: [libmongo-client-dev]
+mono-complete:
+  debian: [mono-complete]
+  ubuntu: [mono-complete]
 mono-devel:
   debian: [mono-devel]
   fedora: [mono-devel]
@@ -3292,6 +3363,13 @@ nvidia-cuda:
   debian: [nvidia-cuda-toolkit]
   gentoo: [nvidia-cuda-toolkit]
   ubuntu: [nvidia-cuda-toolkit]
+nvidia-cuda-dev:
+  debian: [nvidia-cuda-dev]
+  gentoo: [nvidia-cuda-dev]
+  ubuntu: [nvidia-cuda-dev]
+ocl-icd-opencl-dev:
+  debian: [ocl-icd-opencl-dev]
+  ubuntu: [ocl-icd-opencl-dev]
 omniidl:
   arch: [omniorb]
   debian: [omniidl, omniorb-idl]
@@ -3305,6 +3383,7 @@ omniorb:
   ubuntu: [omniorb, omniidl, omniorb-idl, omniorb-nameserver, libomniorb4-dev]
 opende:
   arch: [ode]
+  debian: [libode-dev]
   fedora: [ode]
   ubuntu: [libode-dev]
 opengl:
@@ -3523,6 +3602,11 @@ python-qrencode:
 python-sphinx:
   fedora: [python-sphinx]
   gentoo: [dev-python/sphinx]
+python-tornado:
+  arch: [python-tornado]
+  debian: [python-tornado]
+  fedora: [python-tornado]
+  ubuntu: [python-tornado]
 python-vtk:
   fedora: [vtk-python]
   gentoo: [dev-python/pyvtk]
@@ -4124,14 +4208,32 @@ wxpython:
     xenial: [python-wxgtk3.0]
 wxwidgets:
   arch: [wxgtk]
-  debian: [libwxgtk2.8-dev]
+  debian:
+    jessie: [libwxgtk3.0-dev]
+    stretch: [libwxgtk3.0-dev]
+    wheezy: [libwxgtk2.8-dev]
   fedora: [wxGTK-devel]
   freebsd: [wxgtk2]
   gentoo: [x11-libs/wxGTK]
   macports: [wxWidgets-python]
   opensuse: [wxGTK-devel]
   rhel: [wxGTK-devel]
-  ubuntu: [libwxgtk2.8-dev]
+  ubuntu:
+    lucid: [libwxgtk2.8-dev]
+    maverick: [libwxgtk2.8-dev]
+    natty: [libwxgtk2.8-dev]
+    oneiric: [libwxgtk2.8-dev]
+    precise: [libwxgtk2.8-dev]
+    quantal: [libwxgtk2.8-dev]
+    raring: [libwxgtk2.8-dev]
+    saucy: [libwxgtk2.8-dev]
+    trusty: [libwxgtk2.8-dev]
+    utopic: [libwxgtk2.8-dev]
+    vivid: [libwxgtk2.8-dev]
+    wily: [libwxgtk2.8-dev]
+    xenial: [libwxgtk3.0-dev]
+    yakkety: [libwxgtk3.0-dev]
+    zesty: [libwxgtk3.0-dev]
 x11proto-dri2-dev:
   arch: [dri2proto]
   debian: [x11proto-dri2-dev]
