@@ -65,6 +65,22 @@ repositories:
       url: https://github.com/ros/bond_core.git
       version: master
     status: maintained
+  capabilities:
+    doc:
+      type: git
+      url: https://github.com/osrf/capabilities.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/capabilities-release.git
+      version: 0.2.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/osrf/capabilities.git
+      version: master
+    status: maintained
   catkin:
     doc:
       type: git
@@ -176,6 +192,21 @@ repositories:
       url: https://github.com/ros/dynamic_reconfigure.git
       version: master
     status: maintained
+  eigen_stl_containers:
+    doc:
+      type: git
+      url: https://github.com/ros/eigen_stl_containers.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/eigen_stl_containers-release.git
+      version: 0.1.7-0
+    source:
+      type: git
+      url: https://github.com/ros/eigen_stl_containers.git
+      version: master
+    status: maintained
   gencpp:
     doc:
       type: git
@@ -262,7 +293,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.6.3-0
+      version: 0.6.4-0
     source:
       test_pull_requests: true
       type: git
@@ -283,6 +314,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/gl_dependency.git
       version: kinetic-devel
+    status: maintained
+  media_export:
+    doc:
+      type: git
+      url: https://github.com/ros/media_export.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/media_export-release.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/ros/media_export.git
+      version: indigo-devel
     status: maintained
   message_generation:
     doc:
@@ -562,7 +608,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/rospack-release.git
-      version: 2.4.0-0
+      version: 2.4.1-0
     source:
       test_pull_requests: true
       type: git
@@ -588,6 +634,31 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/rqt.git
       version: kinetic-devel
+    status: maintained
+  stage:
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/stage-release.git
+      version: 4.1.1-0
+    source:
+      type: git
+      url: https://github.com/ros-gbp/stage-release.git
+      version: release/kinetic/stage
+  std_capabilities:
+    doc:
+      type: git
+      url: https://github.com/osrf/std_capabilities.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/std_capabilities-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/osrf/std_capabilities.git
+      version: master
     status: maintained
   std_msgs:
     doc:

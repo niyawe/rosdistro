@@ -2248,7 +2248,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_planning-release.git
-      version: 0.1.8-2
+      version: 0.1.10-0
     status: developed
   jsk_pr2eus:
     release:
@@ -2260,7 +2260,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.3.9-0
+      version: 0.3.10-0
     status: developed
   jsk_recognition:
     doc:
@@ -2867,6 +2867,10 @@ repositories:
       version: master
     status: maintained
   metapackages:
+    doc:
+      type: git
+      url: https://github.com/ros/metapackages.git
+      version: jade-devel
     release:
       packages:
       - desktop
@@ -2881,6 +2885,10 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/metapackages-release.git
       version: 1.2.0-0
+    source:
+      type: git
+      url: https://github.com/ros/metapackages.git
+      version: jade-devel
     status: maintained
   microstrain_3dm_gx5_45:
     doc:
@@ -3899,7 +3907,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.2.0-1
+      version: 3.2.0-2
     status: maintained
   opencv_apps:
     doc:
@@ -4091,7 +4099,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/AutonomyLab/parrot_arsdk-release.git
-      version: 3.10.1-0
+      version: 3.11.0-0
     source:
       type: git
       url: https://github.com/AutonomyLab/parrot_arsdk.git
@@ -4287,6 +4295,7 @@ repositories:
       url: https://github.com/ros-drivers-gbp/phidgets_drivers-release.git
       version: 0.7.0-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/phidgets_drivers.git
       version: jade
@@ -4335,7 +4344,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.11.0-0
+      version: 0.12.1-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -5744,13 +5753,14 @@ repositories:
       - rosserial_msgs
       - rosserial_python
       - rosserial_server
+      - rosserial_test
       - rosserial_tivac
       - rosserial_windows
       - rosserial_xbee
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rosserial-release.git
-      version: 0.7.5-0
+      version: 0.7.6-0
     source:
       type: git
       url: https://github.com/ros-drivers/rosserial.git
@@ -5853,7 +5863,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rqt_common_plugins-release.git
-      version: 0.4.5-0
+      version: 0.4.7-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_common_plugins.git
