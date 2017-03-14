@@ -1242,7 +1242,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.6.18-0
+      version: 0.6.19-0
     source:
       test_pull_requests: true
       type: git
@@ -2609,7 +2609,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/eigen_stl_containers-release.git
-      version: 0.1.4-0
+      version: 0.1.8-0
     source:
       type: git
       url: https://github.com/ros/eigen_stl_containers.git
@@ -2693,7 +2693,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.22.0-0
+      version: 9.23.0-0
     status: developed
   evapc_ros:
     doc:
@@ -3339,7 +3339,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/genmsg-release.git
-      version: 0.5.7-0
+      version: 0.5.8-0
     source:
       test_pull_requests: true
       type: git
@@ -4260,7 +4260,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ihmcrobotics/ihmc_ros_core-release.git
-      version: 0.9.1-4
+      version: 0.9.2-0
     source:
       type: git
       url: https://github.com/ihmcrobotics/ihmc_ros_core.git
@@ -4415,7 +4415,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.0.13-0
+      version: 1.0.14-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
@@ -4973,7 +4973,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.2.5-0
+      version: 0.3.5-0
     status: developed
   jsk_planning:
     doc:
@@ -5113,7 +5113,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.14-0
+      version: 1.1.0-0
     status: developed
   katana_driver:
     doc:
@@ -6489,7 +6489,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 0.7.7-0
+      version: 0.7.8-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -8491,7 +8491,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.12.1-0
+      version: 0.13.1-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -10701,7 +10701,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ros-release.git
-      version: 1.11.13-0
+      version: 1.11.14-0
     source:
       test_pull_requests: true
       type: git
@@ -10788,7 +10788,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.11.20-0
+      version: 1.11.21-0
     source:
       test_pull_requests: true
       type: git
@@ -11205,7 +11205,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/roscpp_core-release.git
-      version: 0.5.7-0
+      version: 0.5.8-0
     source:
       test_pull_requests: true
       type: git
@@ -11331,7 +11331,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rosjava-release/rosjava_core-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/rosjava/rosjava_core.git
@@ -11449,7 +11449,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/rospack-release.git
-      version: 2.2.7-0
+      version: 2.2.8-0
     source:
       test_pull_requests: true
       type: git
@@ -11973,6 +11973,7 @@ repositories:
       version: indigo-devel
     release:
       packages:
+      - nextage_calibration
       - nextage_description
       - nextage_gazebo
       - nextage_ik_plugin
@@ -11982,7 +11983,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_nextage-release.git
-      version: 0.7.14-0
+      version: 0.7.15-0
     source:
       test_pull_requests: true
       type: git
@@ -14198,7 +14199,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/urdf_parser_py.git
-      version: 0.3.1
+      version: indigo-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
