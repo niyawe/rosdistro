@@ -69,7 +69,7 @@ repositories:
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: git@gitlab.uni-koblenz.de:robbie/homer_robbie_architecture.git
+      url: git@gitlab.uni-koblenz.de:robbie/homer_robbie_architecture-release.git
       version: 1.0.2-2
   homer_robot_face:
     release:
