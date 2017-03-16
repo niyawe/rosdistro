@@ -51,6 +51,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_mapping.git
       version: 0.1.20-0
     status: maintained
+  homer_msgs:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_msgs-release.git
+      version: 0.1.6-0
+    status: maintained
   homer_ptu_msgs:
     release:
       tags:
