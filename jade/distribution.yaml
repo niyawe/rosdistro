@@ -1148,7 +1148,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/filters-release.git
-      version: 1.7.4-3
+      version: 1.7.5-0
     source:
       type: git
       url: https://github.com/ros/filters.git
@@ -2298,10 +2298,11 @@ repositories:
       - roseus
       - roseus_mongo
       - roseus_smach
+      - roseus_tutorials
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.6.0-0
+      version: 1.6.1-0
     status: developed
   jsk_visualization:
     release:
@@ -2536,6 +2537,15 @@ repositories:
       url: https://github.com/GT-RAIL/librms.git
       version: develop
     status: maintained
+  libsick_ldmrs:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/libsick_ldmrs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/SICKAG/libsick_ldmrs.git
+      version: master
   lms1xx:
     doc:
       type: git
@@ -2740,7 +2750,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
@@ -3907,7 +3917,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.2.0-3
+      version: 3.2.0-4
     status: maintained
   opencv_apps:
     doc:
@@ -5222,7 +5232,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_canopen-release.git
-      version: 0.7.0-0
+      version: 0.7.1-0
     source:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
@@ -6272,6 +6282,15 @@ repositories:
       url: https://github.com/ros-planning/shape_tools.git
       version: master
     status: maintained
+  sick_ldmrs_laser:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_ldmrs_laser.git
+      version: jade
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_ldmrs_laser.git
+      version: jade
   sick_tim:
     doc:
       type: git

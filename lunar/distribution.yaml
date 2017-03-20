@@ -176,6 +176,26 @@ repositories:
       url: https://github.com/ros/common_tutorials.git
       version: indigo-devel
     status: maintained
+  control_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/control_msgs.git
+      version: kinetic-devel
+    source:
+      type: git
+      url: https://github.com/ros-controls/control_msgs.git
+      version: kinetic-devel
+    status: maintained
+  control_toolbox:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/control_toolbox.git
+      version: kinetic-devel
+    source:
+      type: git
+      url: https://github.com/ros-controls/control_toolbox.git
+      version: kinetic-devel
+    status: maintained
   dynamic_reconfigure:
     doc:
       type: git
@@ -216,7 +236,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/filters-release.git
-      version: 1.7.4-0
+      version: 1.7.5-1
     source:
       test_pull_requests: true
       type: git
@@ -422,7 +442,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.2.0-4
+      version: 3.2.0-6
     status: maintained
   pluginlib:
     doc:
@@ -449,7 +469,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.3.2-0
+      version: 0.3.2-2
     source:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
@@ -471,11 +491,21 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.3.4-0
+      version: 0.3.4-2
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
+      version: kinetic-devel
+    status: maintained
+  realtime_tools:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/realtime_tools.git
+      version: kinetic-devel
+    source:
+      type: git
+      url: https://github.com/ros-controls/realtime_tools.git
       version: kinetic-devel
     status: maintained
   ros:
@@ -562,6 +592,26 @@ repositories:
       url: https://github.com/ros/ros_comm_msgs.git
       version: indigo-devel
     status: maintained
+  ros_control:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/ros_control.git
+      version: kinetic-devel
+    source:
+      type: git
+      url: https://github.com/ros-controls/ros_control.git
+      version: kinetic-devel
+    status: maintained
+  ros_controllers:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/ros_controllers.git
+      version: kinetic-devel
+    source:
+      type: git
+      url: https://github.com/ros-controls/ros_controllers.git
+      version: kinetic-devel
+    status: maintained
   ros_tutorials:
     doc:
       type: git
@@ -627,6 +677,21 @@ repositories:
       type: git
       url: https://github.com/ros/roscpp_core.git
       version: kinetic-devel
+    status: maintained
+  roslint:
+    doc:
+      type: git
+      url: https://github.com/ros/roslint.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/roslint-release.git
+      version: 0.11.1-0
+    source:
+      type: git
+      url: https://github.com/ros/roslint.git
+      version: master
     status: maintained
   roslisp:
     doc:

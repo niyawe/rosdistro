@@ -2968,11 +2968,15 @@ repositories:
       version: indigo-devel
     status: developed
   filters:
+    doc:
+      type: git
+      url: https://github.com/ros/filters.git
+      version: hydro-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/filters-release.git
-      version: 1.7.4-0
+      version: 1.7.5-0
     source:
       type: git
       url: https://github.com/ros/filters.git
@@ -4957,7 +4961,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_demos-release.git
-      version: 0.0.3-1
+      version: 0.0.4-0
     status: developed
   jsk_model_tools:
     doc:
@@ -5079,7 +5083,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.6.0-0
+      version: 1.6.1-0
     status: maintained
   jsk_smart_apps:
     doc:
@@ -5723,6 +5727,15 @@ repositories:
       url: https://github.com/segwayrmp/libsegwayrmp-release.git
       version: 0.2.10-0
     status: maintained
+  libsick_ldmrs:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/libsick_ldmrs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/SICKAG/libsick_ldmrs.git
+      version: master
   libuvc:
     doc:
       type: git
@@ -6040,7 +6053,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
@@ -8491,7 +8504,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.13.1-0
+      version: 0.15.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -9755,7 +9768,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/intel-ros/realsense-release.git
-      version: 1.7.1-0
+      version: 1.7.2-0
     source:
       test_pull_requests: true
       type: git
@@ -10751,7 +10764,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_canopen-release.git
-      version: 0.6.5-1
+      version: 0.6.6-0
     source:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
@@ -11959,7 +11972,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.1.20-0
+      version: 1.1.21-0
     source:
       test_pull_requests: true
       type: git
@@ -12518,6 +12531,15 @@ repositories:
       url: https://github.com/wcaarls/shared_serial.git
       version: master
     status: maintained
+  sick_ldmrs_laser:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_ldmrs_laser.git
+      version: indigo
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_ldmrs_laser.git
+      version: indigo
   sick_tim:
     doc:
       type: git

@@ -195,6 +195,11 @@ repositories:
       url: https://github.com/iirob/ati_force_torque.git
       version: kinetic-devel
     status: developed
+  auction_methods_stack:
+    doc:
+      type: git
+      url: https://github.com/joaoquintas/auction_methods_stack.git
+      version: master
   audio_common:
     doc:
       type: git
@@ -471,7 +476,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/asmodehn/catkin_pip-release.git
-      version: 0.1.17-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/asmodehn/catkin_pip.git
@@ -1239,7 +1244,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/filters-release.git
-      version: 1.7.4-1
+      version: 1.7.5-0
     source:
       type: git
       url: https://github.com/ros/filters.git
@@ -2323,10 +2328,11 @@ repositories:
       - jsk_roseus
       - roseus
       - roseus_smach
+      - roseus_tutorials
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.6.0-0
+      version: 1.6.1-0
     status: developed
   jsk_visualization:
     doc:
@@ -2677,6 +2683,15 @@ repositories:
       url: https://github.com/IntelRealSense/librealsense.git
       version: master
     status: maintained
+  libsick_ldmrs:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/libsick_ldmrs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/SICKAG/libsick_ldmrs.git
+      version: master
   linux_peripheral_interfaces:
     doc:
       type: git
@@ -2889,7 +2904,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
@@ -3954,7 +3969,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.2.0-3
+      version: 3.2.0-4
     status: maintained
   opencv_apps:
     doc:
@@ -4396,7 +4411,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.13.0-0
+      version: 0.15.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -4448,7 +4463,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/pointgrey_camera_driver-release.git
-      version: 0.12.2-0
+      version: 0.13.0-0
     source:
       type: git
       url: https://github.com/ros-drivers/pointgrey_camera_driver.git
@@ -4499,7 +4514,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/stonier/py_trees-release.git
-      version: 0.5.7-0
+      version: 0.5.8-0
     source:
       type: git
       url: https://github.com/stonier/py_trees.git
@@ -4514,7 +4529,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/stonier/py_trees_msgs-release.git
-      version: 0.3.3-0
+      version: 0.3.4-0
     source:
       type: git
       url: https://github.com/stonier/py_trees_msgs.git
@@ -4529,7 +4544,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/stonier/py_trees_ros-release.git
-      version: 0.5.0-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/stonier/py_trees_ros.git
@@ -4841,7 +4856,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/intel-ros/realsense-release.git
-      version: 1.7.1-0
+      version: 1.7.2-0
     source:
       test_pull_requests: true
       type: git
@@ -5290,7 +5305,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_canopen-release.git
-      version: 0.7.0-0
+      version: 0.7.1-0
     source:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
@@ -6131,6 +6146,15 @@ repositories:
       url: https://github.com/wjwwood/serial.git
       version: master
     status: maintained
+  sick_ldmrs_laser:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_ldmrs_laser.git
+      version: jade
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_ldmrs_laser.git
+      version: jade
   sick_tim:
     doc:
       type: git
