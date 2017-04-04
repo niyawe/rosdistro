@@ -112,6 +112,16 @@ python:
     yakkety_python3: [python3-dev]
     zesty: [python-dev]
     zesty_python3: [python3-dev]
+python-adafruit-bno055-pip:
+  debian:
+    pip:
+      packages: [adafruit_bno055]
+  fedora:
+    pip:
+      packages: [adafruit_bno055]
+  ubuntu:
+    pip:
+      packages: [adafruit_bno055]
 python-alembic:
   fedora: [python-alembic]
   ubuntu:
@@ -540,6 +550,19 @@ python-cpplint:
   ubuntu:
     pip:
       packages: [cpplint]
+python-crccheck-pip:
+  debian:
+    pip:
+      packages: [crccheck]
+  fedora:
+    pip:
+      packages: [crccheck]
+  osx:
+    pip:
+      packages: [crccheck]
+  ubuntu:
+    pip:
+      packages: [crccheck]
 python-crypto:
   arch: [python2-crypto]
   debian: [python-crypto]
@@ -853,6 +876,16 @@ python-fysom:
   ubuntu:
     pip:
       packages: [fysom]
+python-gTTS-pip:
+  debian:
+    pip:
+      packages: [gTTS]
+  fedora:
+    pip:
+      packages: [gTTS]
+  ubuntu:
+    pip:
+      packages: [gTTS]
 python-gcloud-pip:
   ubuntu:
     pip:
@@ -1575,6 +1608,19 @@ python-percol:
   ubuntu:
     pip:
       packages: [percol]
+python-periphery-pip:
+  debian:
+    pip:
+      packages: [python-periphery]
+  fedora:
+    pip:
+      packages: [python-periphery]
+  osx:
+    pip:
+      packages: [python-periphery]
+  ubuntu:
+    pip:
+      packages: [python-periphery]
 python-pexpect:
   arch: [python2-pexpect]
   debian: [python-pexpect]
@@ -2412,6 +2458,10 @@ python-sip:
     wily_python3: [python3-sip-dev]
     xenial: [python-sip-dev]
     xenial_python3: [python3-sip-dev]
+    yakkety: [python-sip-dev]
+    yakkety_python3: [python3-sip-dev]
+    zesty: [python-sip-dev]
+    zesty_python3: [python3-sip-dev]
 python-sip4:
   fedora: [sip]
   macports: [py27-sip4]
@@ -2625,6 +2675,12 @@ python-tabulate:
     wily: [python-tabulate]
     xenial: [python-tabulate]
 python-tabulate-pip:
+  debian:
+    pip:
+      packages: [tabulate]
+  fedora:
+    pip:
+      packages: [tabulate]
   osx:
     pip:
       packages: [tabulate]

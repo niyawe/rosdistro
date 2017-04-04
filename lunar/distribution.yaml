@@ -21,7 +21,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/actionlib-release.git
-      version: 1.11.8-0
+      version: 1.11.9-0
     source:
       test_pull_requests: true
       type: git
@@ -67,7 +67,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/bond_core-release.git
-      version: 1.7.18-0
+      version: 1.7.19-0
     source:
       test_pull_requests: true
       type: git
@@ -224,7 +224,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
-      version: 1.5.46-0
+      version: 1.5.47-0
     source:
       test_pull_requests: true
       type: git
@@ -355,6 +355,56 @@ repositories:
       url: https://github.com/ros/genpy.git
       version: kinetic-devel
     status: maintained
+  geometry:
+    doc:
+      type: git
+      url: https://github.com/ros/geometry.git
+      version: indigo-devel
+    release:
+      packages:
+      - eigen_conversions
+      - geometry
+      - kdl_conversions
+      - tf
+      - tf_conversions
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/geometry-release.git
+      version: 1.11.8-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/geometry.git
+      version: indigo-devel
+    status: maintained
+  geometry2:
+    doc:
+      type: git
+      url: https://github.com/ros/geometry2.git
+      version: indigo-devel
+    release:
+      packages:
+      - geometry2
+      - tf2
+      - tf2_bullet
+      - tf2_eigen
+      - tf2_geometry_msgs
+      - tf2_kdl
+      - tf2_msgs
+      - tf2_py
+      - tf2_ros
+      - tf2_sensor_msgs
+      - tf2_tools
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/geometry2-release.git
+      version: 0.5.15-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/geometry2.git
+      version: indigo-devel
+    status: maintained
   gl_dependency:
     doc:
       type: git
@@ -390,6 +440,89 @@ repositories:
       type: git
       url: https://github.com/ros-perception/image_common.git
       version: hydro-devel
+    status: maintained
+  interactive_markers:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/interactive_markers.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/interactive_markers-release.git
+      version: 1.11.3-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/interactive_markers.git
+      version: indigo-devel
+    status: maintained
+  laser_assembler:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/laser_assembler.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/laser_assembler-release.git
+      version: 1.7.4-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/laser_assembler.git
+      version: hydro-devel
+    status: maintained
+  laser_filters:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/laser_filters.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/laser_filters-release.git
+      version: 1.8.3-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/laser_filters.git
+      version: indigo-devel
+    status: maintained
+  laser_geometry:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/laser_geometry.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/laser_geometry-release.git
+      version: 1.6.4-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/laser_geometry.git
+      version: indigo-devel
+    status: maintained
+  laser_pipeline:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/laser_pipeline.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/laser_pipeline-release.git
+      version: 1.6.2-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/laser_pipeline.git
+      version: hydro-devel
+    status: maintained
+  libg2o:
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/libg2o-release.git
+      version: 2017.4.2-1
     status: maintained
   log4cpp:
     doc:
@@ -461,7 +594,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/nodelet_core-release.git
-      version: 1.9.9-0
+      version: 1.9.10-0
     source:
       test_pull_requests: true
       type: git
@@ -480,6 +613,27 @@ repositories:
       url: https://github.com/orocos-toolchain/ocl.git
       version: toolchain-2.9
     status: maintained
+  octomap:
+    doc:
+      type: git
+      url: https://github.com/OctoMap/octomap.git
+      version: v1.8.0
+    release:
+      packages:
+      - dynamic_edt_3d
+      - octomap
+      - octovis
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/octomap-release.git
+      version: 1.8.0-0
+    source:
+      type: git
+      url: https://github.com/OctoMap/octomap.git
+      version: devel
+    status: developed
+    status_description: Prerelease based on version 1.8.0. The final version for ROS
+      Lunar will (1.9.0)
   opencv3:
     release:
       tags:
@@ -497,7 +651,10 @@ repositories:
       - orocos_kdl
       - orocos_kinematics_dynamics
       - python_orocos_kdl
+      tags:
+        release: release/lunar/{package}/{version}
       url: https://github.com/smits/orocos-kdl-release.git
+      version: 1.3.1-0
     source:
       type: git
       url: https://github.com/orocos/orocos_kinematics_dynamics.git
@@ -512,7 +669,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/pluginlib-release.git
-      version: 1.10.4-0
+      version: 1.10.5-0
     source:
       test_pull_requests: true
       type: git
@@ -557,6 +714,36 @@ repositories:
       url: https://github.com/ros-visualization/qt_gui_core.git
       version: kinetic-devel
     status: maintained
+  qwt_dependency:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/qwt_dependency.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/qwt_dependency-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/qwt_dependency.git
+      version: kinetic-devel
+    status: maintained
+  random_numbers:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/random_numbers.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/random_numbers-release.git
+      version: 0.3.1-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/random_numbers.git
+      version: master
+    status: maintained
   realtime_tools:
     doc:
       type: git
@@ -570,6 +757,22 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
+      version: kinetic-devel
+    status: maintained
+  resource_retriever:
+    doc:
+      type: git
+      url: https://github.com/ros/resource_retriever.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/resource_retriever-release.git
+      version: 1.12.3-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/resource_retriever.git
       version: kinetic-devel
     status: maintained
   rfsm:
@@ -928,6 +1131,21 @@ repositories:
       url: https://github.com/ros/std_msgs.git
       version: groovy-devel
     status: maintained
+  swri_console:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/swri_console-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: master
+    status: developed
   urdfdom_py:
     doc:
       type: git
