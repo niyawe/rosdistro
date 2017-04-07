@@ -123,7 +123,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/kinova_ros-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     status: maintained
 tags:
 - homer
