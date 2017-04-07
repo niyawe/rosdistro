@@ -110,6 +110,22 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_vision.git
       version: 0.1.19-0
     status: maintained
+  kinova_ros:
+    release:
+      packages:
+      - j2n6s300_moveit_config
+      - kinova_bringup
+      - kinova_control
+      - kinova_demo
+      - kinova_description
+      - kinova_driver
+      - kinova_gazebo
+      - kinova_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/kinova_ros-release.git
+      version: 0.0.2-0
+    status: maintained
 tags:
 - homer
 type: distribution
