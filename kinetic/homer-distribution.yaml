@@ -113,7 +113,6 @@ repositories:
   kinova_ros:
     release:
       packages:
-      - j2n6s300_moveit_config
       - kinova_bringup
       - kinova_control
       - kinova_demo
@@ -124,7 +123,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/kinova_ros-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     status: maintained
 tags:
 - homer
