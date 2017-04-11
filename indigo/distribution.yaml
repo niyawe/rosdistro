@@ -2365,7 +2365,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
-      version: 1.5.47-0
+      version: 1.5.48-0
     source:
       test_pull_requests: true
       type: git
@@ -3975,7 +3975,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hironx_rpc-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/tork-a/hironx_rpc.git
@@ -4878,21 +4878,6 @@ repositories:
       type: git
       url: https://github.com/JenniferBuehler/general-message-pkgs.git
       version: master
-    status: maintained
-  jog_arm:
-    doc:
-      type: git
-      url: https://github.com/UTNuclearRoboticsPublic/jog_arm.git
-      version: indigo
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/UTNuclearRoboticsPublic/jog_arm-release.git
-      version: 0.0.1-0
-    source:
-      type: git
-      url: https://github.com/UTNuclearRoboticsPublic/jog_arm.git
-      version: indigo
     status: maintained
   joystick_drivers:
     doc:
@@ -6180,7 +6165,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/mav_comm-release.git
-      version: 3.0.0-0
+      version: 3.2.0-1
     source:
       type: git
       url: https://github.com/ethz-asl/mav_comm.git
@@ -6683,7 +6668,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_resources-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
@@ -11731,7 +11716,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/roswww-release.git
-      version: 0.1.9-0
+      version: 0.1.10-1
     source:
       type: git
       url: https://github.com/tork-a/roswww.git
@@ -11750,12 +11735,13 @@ repositories:
       - rotors_evaluation
       - rotors_gazebo
       - rotors_gazebo_plugins
+      - rotors_hil_interface
       - rotors_joy_interface
       - rotors_simulator
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/rotors_simulator-release.git
-      version: 2.0.1-0
+      version: 2.1.0-3
     source:
       type: git
       url: https://github.com/ethz-asl/rotors_simulator.git
@@ -13335,6 +13321,21 @@ repositories:
       url: https://github.com/ros-simulation/stage_ros.git
       version: master
     status: maintained
+  static_tf:
+    doc:
+      type: git
+      url: https://github.com/DLu/static_tf.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/wu-robotics/static_tf_release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/DLu/static_tf.git
+      version: master
+    status: developed
   staubli:
     doc:
       type: git
