@@ -107,7 +107,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry_angles_utils-release.git
-      version: 1.9.10-0
+      version: 1.9.11-0
     source:
       test_pull_requests: true
       type: git
@@ -325,6 +325,12 @@ repositories:
       url: https://github.com/uos/basler_tof.git
       version: kinetic
     status: developed
+  bcap:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/fsuarez6/bcap-release.git
+      version: 0.1.0-0
   bebop_autonomy:
     doc:
       type: git
@@ -1376,7 +1382,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.5.10-0
+      version: 2.5.11-0
     source:
       test_pull_requests: true
       type: git
@@ -1514,7 +1520,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-geographic-info/geographic_info-release.git
-      version: 0.4.0-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/ros-geographic-info/geographic_info.git
@@ -2284,7 +2290,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/jsk_control-release.git
-      version: 0.1.12-0
+      version: 0.1.13-0
     status: developed
   jsk_model_tools:
     release:
@@ -2934,7 +2940,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -3192,7 +3198,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 0.9.5-0
+      version: 0.9.6-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -4546,8 +4552,9 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/pointgrey_camera_driver-release.git
-      version: 0.13.0-0
+      version: 0.13.1-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/pointgrey_camera_driver.git
       version: master
@@ -4627,7 +4634,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/stonier/py_trees_ros-release.git
-      version: 0.5.6-0
+      version: 0.5.9-0
     source:
       type: git
       url: https://github.com/stonier/py_trees_ros.git
@@ -5816,7 +5823,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/rosjava-release/rosjava_core-release.git
-      version: 0.3.2-0
+      version: 0.3.3-0
     source:
       type: git
       url: https://github.com/rosjava/rosjava_core.git
@@ -6128,7 +6135,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/stonier/rqt_py_trees-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/stonier/rqt_py_trees.git
@@ -6828,6 +6835,16 @@ repositories:
       url: https://github.com/RobotWebTools/tf2_web_republisher.git
       version: master
     status: maintained
+  thingmagic_usbpro:
+    doc:
+      type: git
+      url: https://gitlab.com/chambana/thingmagic_usbpro.git
+      version: master
+    source:
+      type: git
+      url: https://gitlab.com/chambana/thingmagic_usbpro.git
+      version: master
+    status: developed
   thormang3_common:
     doc:
       type: git
@@ -7761,6 +7778,21 @@ repositories:
       url: https://github.com/RobotWebTools/web_video_server.git
       version: master
     status: maintained
+  webkit_dependency:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/webkit_dependency.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/webkit_dependency-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/webkit_dependency.git
+      version: kinetic-devel
+    status: maintained
   webtest:
     release:
       tags:
@@ -7882,7 +7914,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ethz-asl/ethzasl_xsens_driver-release.git
-      version: 2.0.1-0
+      version: 2.1.0-0
     source:
       type: git
       url: https://github.com/ethz-asl/ethzasl_xsens_driver.git

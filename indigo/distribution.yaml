@@ -213,7 +213,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/geometry_angles_utils-release.git
-      version: 1.9.10-0
+      version: 1.9.11-0
     source:
       type: git
       url: https://github.com/ros/angles.git
@@ -3410,7 +3410,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-geographic-info/geographic_info-release.git
-      version: 0.4.0-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/ros-geographic-info/geographic_info.git
@@ -3425,7 +3425,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/geometric_shapes-release.git
-      version: 0.4.4-0
+      version: 0.4.5-0
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
@@ -5031,7 +5031,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_control-release.git
-      version: 0.1.11-0
+      version: 0.1.13-0
     status: developed
   jsk_demos:
     release:
@@ -6113,7 +6113,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.0.13-0
+      version: 0.0.14-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -9223,7 +9223,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyros-common-rosrelease.git
-      version: 0.4.0-3
+      version: 0.4.2-0
     status: developed
   pyros_config:
     doc:
@@ -10008,7 +10008,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/ridgeback-release.git
-      version: 0.1.8-0
+      version: 0.1.9-0
     source:
       type: git
       url: https://github.com/ridgeback/ridgeback.git
@@ -10791,6 +10791,22 @@ repositories:
       url: https://github.com/ros-aldebaran/romeo_virtual.git
       version: master
     status: maintained
+  roomblock:
+    release:
+      packages:
+      - roomblock_bringup
+      - roomblock_description
+      - roomblock_mapping
+      - roomblock_navigation
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/tork-a/roomblock-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/tork-a/roomblock.git
+      version: master
+    status: developed
   ros:
     doc:
       type: git
@@ -13734,6 +13750,16 @@ repositories:
       url: https://github.com/bsb808/thingmagic_rfid.git
       version: master
     status: developed
+  thingmagic_usbpro:
+    doc:
+      type: git
+      url: https://gitlab.com/chambana/thingmagic_usbpro.git
+      version: master
+    source:
+      type: git
+      url: https://gitlab.com/chambana/thingmagic_usbpro.git
+      version: master
+    status: developed
   threemxl:
     doc:
       type: git
@@ -14303,8 +14329,8 @@ repositories:
       version: 0.0.3-0
     source:
       type: git
-      url: https://github.com/TheDash/ur_modern_driver.git
-      version: indigo-devel
+      url: https://github.com/ThomasTimm/ur_modern_driver.git
+      version: master
     status: maintained
   urdf_tools:
     doc:
@@ -14908,6 +14934,21 @@ repositories:
       url: https://github.com/asmodehn/webargs-rosrelease.git
       version: 1.3.4-8
     status: maintained
+  webkit_dependency:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/webkit_dependency.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/webkit_dependency-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/webkit_dependency.git
+      version: indigo-devel
+    status: maintained
   webtest:
     doc:
       type: git
@@ -15173,7 +15214,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/ethzasl_xsens_driver-release.git
-      version: 2.0.1-0
+      version: 2.1.0-0
     source:
       type: git
       url: https://github.com/ethz-asl/ethzasl_xsens_driver.git

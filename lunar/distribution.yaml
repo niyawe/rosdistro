@@ -52,7 +52,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/geometry_angles_utils-release.git
-      version: 1.9.10-2
+      version: 1.9.11-0
     source:
       type: git
       url: https://github.com/ros/angles.git
@@ -87,6 +87,21 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/bond_core.git
+      version: master
+    status: maintained
+  camera_info_manager_py:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/camera_info_manager_py.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/camera_info_manager_py-release.git
+      version: 0.2.3-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/camera_info_manager_py.git
       version: master
     status: maintained
   capabilities:
@@ -370,6 +385,25 @@ repositories:
       url: https://github.com/ros/genpy.git
       version: kinetic-devel
     status: maintained
+  geographic_info:
+    doc:
+      type: git
+      url: https://github.com/ros-geographic-info/geographic_info.git
+      version: master
+    release:
+      packages:
+      - geodesy
+      - geographic_info
+      - geographic_msgs
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-geographic-info/geographic_info-release.git
+      version: 0.5.2-0
+    source:
+      type: git
+      url: https://github.com/ros-geographic-info/geographic_info.git
+      version: master
+    status: maintained
   geometric_shapes:
     doc:
       type: git
@@ -567,6 +601,17 @@ repositories:
       url: https://github.com/ros-perception/laser_pipeline.git
       version: hydro-devel
     status: maintained
+  libfreenect:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/libfreenect.git
+      version: ros-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/libfreenect-ros-release.git
+      version: 0.5.1-0
+    status: maintained
   libg2o:
     release:
       tags:
@@ -631,6 +676,52 @@ repositories:
       url: https://github.com/ros/message_runtime.git
       version: groovy-devel
     status: maintained
+  moveit_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_msgs.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_msgs-release.git
+      version: 0.9.1-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/moveit_msgs.git
+      version: kinetic-devel
+    status: maintained
+  moveit_resources:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_resources.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_resources-release.git
+      version: 0.6.2-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/moveit_resources.git
+      version: master
+    status: developed
+  navigation_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation_msgs.git
+      version: jade-devel
+    release:
+      packages:
+      - map_msgs
+      - move_base_msgs
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/navigation_msgs-release.git
+      version: 1.13.0-0
+    status: maintained
   nodelet_core:
     doc:
       type: git
@@ -650,6 +741,17 @@ repositories:
       type: git
       url: https://github.com/ros/nodelet_core.git
       version: indigo-devel
+    status: maintained
+  object_recognition_msgs:
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/object_recognition_msgs-release.git
+      version: 0.4.1-0
+    source:
+      type: git
+      url: https://github.com/wg-perception/object_recognition_msgs.git
+      version: master
     status: maintained
   ocl:
     doc:
@@ -684,12 +786,43 @@ repositories:
     status: developed
     status_description: Prerelease based on version 1.8.0. The final version for ROS
       Lunar will (1.9.0)
+  octomap_msgs:
+    doc:
+      type: git
+      url: https://github.com/OctoMap/octomap_msgs.git
+      version: lunar-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/octomap_msgs-release.git
+      version: 0.3.3-0
+    source:
+      type: git
+      url: https://github.com/OctoMap/octomap_msgs.git
+      version: lunar-devel
+    status: maintained
   opencv3:
     release:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
       version: 3.2.0-6
+    status: maintained
+  openni_camera:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/openni_camera.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/openni_camera-release.git
+      version: 1.9.5-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-drivers/openni_camera.git
+      version: indigo-devel
     status: maintained
   orocos_kinematics_dynamics:
     doc:
@@ -871,10 +1004,25 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/robot_model-release.git
-      version: 1.12.8-1
+      version: 1.12.8-2
     source:
       type: git
       url: https://github.com/ros/robot_model.git
+      version: kinetic-devel
+    status: maintained
+  robot_state_publisher:
+    doc:
+      type: git
+      url: https://github.com/ros/robot_state_publisher.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/robot_state_publisher-release.git
+      version: 1.13.5-0
+    source:
+      type: git
+      url: https://github.com/ros/robot_state_publisher.git
       version: kinetic-devel
     status: maintained
   ros:
@@ -966,6 +1114,23 @@ repositories:
       type: git
       url: https://github.com/ros-controls/ros_control.git
       version: kinetic-devel
+    release:
+      packages:
+      - combined_robot_hw
+      - combined_robot_hw_tests
+      - controller_interface
+      - controller_manager
+      - controller_manager_msgs
+      - controller_manager_tests
+      - hardware_interface
+      - joint_limits_interface
+      - ros_control
+      - rqt_controller_manager
+      - transmission_interface
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/ros_control-release.git
+      version: 0.11.4-0
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
@@ -1181,6 +1346,38 @@ repositories:
       url: https://github.com/orocos/rtt_ros_integration.git
       version: toolchain-2.9
     status: maintained
+  rviz:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rviz.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rviz-release.git
+      version: 1.12.4-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rviz.git
+      version: kinetic-devel
+    status: maintained
+  srdfdom:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/srdfdom.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/srdfdom-release.git
+      version: 0.4.2-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/srdfdom.git
+      version: kinetic-devel
+    status: maintained
   stage:
     release:
       tags:
@@ -1290,6 +1487,37 @@ repositories:
       url: https://github.com/ros-perception/vision_opencv.git
       version: kinetic
     status: maintained
+  warehouse_ros:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/warehouse_ros-release.git
+      version: 0.9.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros.git
+      version: jade-devel
+    status: maintained
+  webkit_dependency:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/webkit_dependency.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/webkit_dependency-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/webkit_dependency.git
+      version: kinetic-devel
+    status: maintained
   xacro:
     doc:
       type: git
@@ -1304,6 +1532,21 @@ repositories:
       type: git
       url: https://github.com/ros/xacro.git
       version: lunar-devel
+    status: developed
+  xsens_driver:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver-release.git
+      version: 2.1.0-0
+    source:
+      type: git
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver.git
+      version: master
     status: developed
   xv_11_laser_driver:
     doc:
