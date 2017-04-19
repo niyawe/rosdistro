@@ -117,6 +117,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_vision.git
       version: 0.1.19-0
     status: maintained
+  homer_zbar:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_zbar-release.git
+      version: 0.0.2-0
+    status: maintained
   kinova_ros:
     release:
       packages:
