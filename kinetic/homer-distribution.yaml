@@ -80,10 +80,6 @@ repositories:
       version: 1.0.2-3
     status: maintained
   homer_robot_face:
-    doc:
-      type: git
-      url: git@gitlab.uni-koblenz.de:robbie/homer_robot_face.git
-      version: master
     release:
       packages:
       - homer_mary_tts
