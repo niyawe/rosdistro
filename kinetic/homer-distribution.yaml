@@ -72,6 +72,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_multimaster-release.git
       version: 0.0.4-0
     status: developed
+  homer_object_detection:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_object_detection-release.git
+      version: 0.0.1-0
+    status: maintained
   homer_object_detection_lib:
     release:
       tags:
