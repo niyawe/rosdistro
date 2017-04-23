@@ -53,6 +53,12 @@ repositories:
       url: https://github.com/ros-industrial/abb.git
       version: indigo
     status: developed
+  abb_experimental:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/abb_experimental.git
+      version: indigo-devel
+    status: developed
   acado:
     doc:
       type: git
@@ -2914,11 +2920,12 @@ repositories:
     release:
       packages:
       - fetch_arm_control
+      - fetch_pbd_interaction
       - fetch_social_gaze
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics/fetch_pbd-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_pbd.git
@@ -8586,7 +8593,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.17.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -11616,7 +11623,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://bitbucket.org/rospeex/rospeex-release.git
-      version: 3.0.0-0
+      version: 3.0.1-1
     source:
       type: git
       url: https://bitbucket.org/rospeex/rospeex.git
@@ -13645,7 +13652,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.2.4-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
@@ -13679,6 +13686,16 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_twist_keyboard.git
+      version: master
+    status: maintained
+  tensor_field_nav:
+    doc:
+      type: git
+      url: https://github.com/zlt1991/tensor_field_nav.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/zlt1991/tensor_field_nav.git
       version: master
     status: maintained
   terarangerduo-ros:
