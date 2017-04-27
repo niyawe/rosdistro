@@ -131,6 +131,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_rosout_printer-release.git
       version: 0.0.1-0
     status: maintained
+  homer_semantic_knowledgebase:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_semantic_knowledgebase-release.git
+      version: 0.1.1-0
+    status: maintained
   homer_tools:
     release:
       tags:
