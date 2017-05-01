@@ -159,7 +159,7 @@ repositories:
       - homer_simple_named_color_histogram
       tags:
         release: release/kinetic/{package}/{version}
-      url: git@gitlab.uni-koblenz.de:robbie/homer_vision.git
+      url: git@gitlab.uni-koblenz.de:robbie/homer_vision-release.git
       version: 0.1.19-0
     status: maintained
   homer_zbar:
