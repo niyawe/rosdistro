@@ -148,6 +148,10 @@ python-apparmor:
 python-argcomplete:
   fedora: [python-argcomplete]
   ubuntu: [python-argcomplete]
+python-argh:
+  debian: [python-argh]
+  fedora: [python-argh]
+  ubuntu: [python-argh]
 python-argparse:
   arch: [python2]
   debian:
@@ -343,18 +347,7 @@ python-cairo:
   slackware:
     slackpkg:
       packages: [pycairo]
-  ubuntu:
-    lucid: [python-cairo]
-    oneiric: [python-cairo]
-    precise: [python-cairo]
-    quantal: [python-cairo]
-    raring: [python-cairo]
-    saucy: [python-cairo]
-    trusty: [python-cairo]
-    utopic: [python-cairo]
-    vivid: [python-cairo]
-    wily: [python-cairo]
-    xenial: [python-cairo]
+  ubuntu: [python-cairo]
 python-catkin-lint:
   fedora: [python-catkin_lint]
   ubuntu: [python-catkin-lint]
@@ -1113,6 +1106,10 @@ python-jasmine-pip:
 python-jinja2:
   fedora: [python-jinja2]
   ubuntu: [python-jinja2]
+python-jira-pip:
+  ubuntu:
+    pip:
+      packages: [jira]
 python-jsonref-pip:
   ubuntu:
     pip:
@@ -1242,6 +1239,10 @@ python-matplotlib:
     wily_python3: [python3-matplotlib]
     xenial: [python-matplotlib]
     xenial_python3: [python3-matplotlib]
+    yakkety: [python-matplotlib]
+    yakkety_python3: [python3-matplotlib]
+    zesty: [python-matplotlib]
+    zesty_python3: [python3-matplotlib]
 python-mechanize:
   arch: [python2-mechanize]
   debian: [python-mechanize]
@@ -1530,6 +1531,8 @@ python-opengl:
     vivid: [python-opengl]
     wily: [python-opengl]
     xenial: [python-opengl]
+    yakkety: [python-opengl]
+    zesty: [python-opengl]
 python-openssl:
   debian: [python-openssl]
   ubuntu: [python-openssl]
@@ -1721,6 +1724,8 @@ python-psutil:
     vivid: [python-psutil]
     wily: [python-psutil]
     xenial: [python-psutil]
+    yakkety: [python-psutil]
+    zesty: [python-psutil]
 python-psycopg2:
   fedora: [python-psycopg2]
   ubuntu:
@@ -1743,6 +1748,7 @@ python-pyassimp:
   arch: [python2-pyassimp]
   debian:
     jessie: [python-pyassimp]
+    stretch: [python-pyassimp]
     wheezy: [python-pyassimp]
   fedora: [assimp-python]
   osx:
@@ -1761,6 +1767,8 @@ python-pyassimp:
     vivid: [python-pyassimp]
     wily: [python-pyassimp]
     xenial: [python-pyassimp]
+    yakkety: [python-pyassimp]
+    zesty: [python-pyassimp]
 python-pyaudio:
   debian: [python-pyaudio]
   fedora: [pyaudio]
@@ -2222,6 +2230,10 @@ python-requests:
     wily_python3: [python3-requests]
     xenial: [python-requests]
     xenial_python3: [python3-requests]
+    yakkety: [python-requests]
+    yakkety_python3: [python3-requests]
+    zesty: [python-requests]
+    zesty_python3: [python3-requests]
 python-responses-pip:
   osx:
     pip:

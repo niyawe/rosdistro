@@ -8,8 +8,6 @@ release_platforms:
   - '22'
   ubuntu:
   - trusty
-  - utopic
-  - vivid
 repositories:
   ackermann_msgs:
     doc:
@@ -67,7 +65,7 @@ repositories:
   ar_track_alvar:
     doc:
       type: git
-      url: https://github.com/sniekum/ar_track_alvar.git
+      url: https://github.com/ros-perception/ar_track_alvar.git
       version: indigo-devel
     release:
       tags:
@@ -76,7 +74,7 @@ repositories:
       version: 0.5.6-0
     source:
       type: git
-      url: https://github.com/sniekum/ar_track_alvar.git
+      url: https://github.com/ros-perception/ar_track_alvar.git
       version: indigo-devel
     status: maintained
   ar_track_alvar_msgs:
@@ -262,7 +260,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/asmodehn/backports.ssl_match_hostname-rosrelease.git
-      version: 3.5.0-2
+      version: 3.5.0-3
     status: maintained
   basler_tof:
     doc:
@@ -453,7 +451,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/asmodehn/catkin_pip-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/asmodehn/catkin_pip.git
@@ -503,6 +501,25 @@ repositories:
       type: git
       url: https://github.com/ros/cmake_modules.git
       version: 0.4-devel
+    status: maintained
+  collada_urdf:
+    doc:
+      type: git
+      url: https://github.com/ros/collada_urdf.git
+      version: indigo-devel
+    release:
+      packages:
+      - collada_parser
+      - collada_urdf
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/collada_urdf-release.git
+      version: 1.11.14-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/collada_urdf.git
+      version: indigo-devel
     status: maintained
   common_msgs:
     doc:
@@ -752,12 +769,13 @@ repositories:
       - diagnostic_common_diagnostics
       - diagnostic_updater
       - diagnostics
+      - rosdiagnostic
       - self_test
       - test_diagnostic_aggregator
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/diagnostics-release.git
-      version: 1.8.10-0
+      version: 1.9.0-0
     source:
       type: git
       url: https://github.com/ros/diagnostics.git
@@ -1250,6 +1268,12 @@ repositories:
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_can.git
       version: master
     status: maintained
+  fzi_icl_comm:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_comm-release.git
+      version: 0.0.2-0
   fzi_icl_core:
     doc:
       type: git
@@ -1259,7 +1283,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_core-release.git
-      version: 1.0.4-0
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_core.git
@@ -1951,7 +1975,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/image_pipeline-release.git
-      version: 1.12.19-0
+      version: 1.12.20-0
     source:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
@@ -2182,7 +2206,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.0.19-0
+      version: 2.0.20-0
     status: developed
   jsk_common:
     doc:
@@ -2227,7 +2251,11 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_common_msgs-release.git
-      version: 4.1.0-0
+      version: 4.1.1-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
+      version: master
     status: developed
   jsk_control:
     doc:
@@ -2383,6 +2411,25 @@ repositories:
       url: https://github.com/uos/katana_driver.git
       version: jade
     status: developed
+  kdl_parser:
+    doc:
+      type: git
+      url: https://github.com/ros/kdl_parser.git
+      version: indigo-devel
+    release:
+      packages:
+      - kdl_parser
+      - kdl_parser_py
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/kdl_parser-release.git
+      version: 1.11.14-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/kdl_parser.git
+      version: indigo-devel
+    status: maintained
   keyboard:
     doc:
       type: git
@@ -2573,6 +2620,17 @@ repositories:
       type: git
       url: https://github.com/SICKAG/libsick_ldmrs.git
       version: master
+  libuvc:
+    doc:
+      type: git
+      url: https://github.com/ktossell/libuvc.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ktossell/libuvc-release.git
+      version: 0.0.5-1
+    status: unmaintained
   lms1xx:
     doc:
       type: git
@@ -2582,7 +2640,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/clearpath-gbp/lms1xx-release.git
-      version: 0.1.5-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/lms1xx.git
@@ -2611,7 +2669,7 @@ repositories:
     release:
       tags:
         release: release/jade/{package}/{version}
-      url: https://github.com/AndyZelenak/lyap_control-release.git
+      url: https://github.com/AndyZe/lyap_control-release.git
       version: 0.0.13-0
     source:
       type: git
@@ -2765,7 +2823,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: indigo-devel
+      version: master
     release:
       packages:
       - marti_can_msgs
@@ -2777,11 +2835,11 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.0.8-0
+      version: 0.0.9-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: indigo-devel
+      version: master
     status: developed
   mav_comm:
     doc:
@@ -2795,7 +2853,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ethz-asl/mav_comm-release.git
-      version: 3.0.0-0
+      version: 3.2.0-1
     source:
       type: git
       url: https://github.com/ethz-asl/mav_comm.git
@@ -2921,7 +2979,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/metapackages-release.git
-      version: 1.2.0-0
+      version: 1.2.1-0
     source:
       type: git
       url: https://github.com/ros/metapackages.git
@@ -4349,7 +4407,7 @@ repositories:
     release:
       tags:
         release: release/jade/{package}/{version}
-      url: https://github.com/AndyZelenak/pid-release.git
+      url: https://github.com/AndyZe/pid-release.git
       version: 0.0.20-0
     source:
       type: git
@@ -4385,7 +4443,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 1.0.0-1
+      version: 1.0.7-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -4596,6 +4654,13 @@ repositories:
       url: https://github.com/asmodehn/pyros.git
       version: indigo
     status: developed
+  pyros_common:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/pyros-common-rosrelease.git
+      version: 0.4.2-0
+    status: developed
   pyros_config:
     doc:
       type: git
@@ -4610,6 +4675,20 @@ repositories:
       type: git
       url: https://github.com/asmodehn/pyros-config.git
       version: jade
+    status: developed
+  pyros_interfaces_ros:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/pyros-rosinterface-rosrelease.git
+      version: 0.4.0-0
+    status: developed
+  pyros_msgs:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/pyros-msgs-rosrelease.git
+      version: 0.1.1-0
     status: developed
   pyros_test:
     doc:
@@ -5055,11 +5134,7 @@ repositories:
       version: indigo-devel
     release:
       packages:
-      - collada_parser
-      - collada_urdf
       - joint_state_publisher
-      - kdl_parser
-      - kdl_parser_py
       - robot_model
       - urdf
       - urdf_parser_plugin
@@ -5263,7 +5338,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_canopen-release.git
-      version: 0.7.2-0
+      version: 0.7.4-0
     source:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
@@ -5408,7 +5483,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/code-iai-release/ros_emacs_utils-release.git
-      version: 0.4.10-0
+      version: 0.4.11-0
     source:
       type: git
       url: https://github.com/code-iai/ros_emacs_utils.git
@@ -5822,6 +5897,23 @@ repositories:
       url: https://github.com/tork-a/roswww.git
       version: develop
     status: maintained
+  rotors_simulator:
+    release:
+      packages:
+      - rotors_comm
+      - rotors_control
+      - rotors_description
+      - rotors_evaluation
+      - rotors_gazebo
+      - rotors_gazebo_plugins
+      - rotors_hil_interface
+      - rotors_joy_interface
+      - rotors_simulator
+      - rqt_rotors
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ethz-asl/rotors_simulator-release.git
+      version: 3.0.0-0
   rplidar_python:
     doc:
       type: git
@@ -5863,14 +5955,48 @@ repositories:
       - rqt_gui
       - rqt_gui_cpp
       - rqt_gui_py
+      - rqt_py_common
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rqt-release.git
-      version: 0.2.14-0
+      version: 0.4.8-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt.git
       version: groovy-devel
+    status: maintained
+  rqt_action:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_action.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_action-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_action.git
+      version: master
+    status: maintained
+  rqt_bag:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_bag.git
+      version: master
+    release:
+      packages:
+      - rqt_bag
+      - rqt_bag_plugins
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_bag-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_bag.git
+      version: master
     status: maintained
   rqt_common_plugins:
     doc:
@@ -5878,38 +6004,45 @@ repositories:
       url: https://github.com/ros-visualization/rqt_common_plugins.git
       version: master
     release:
-      packages:
-      - rqt_action
-      - rqt_bag
-      - rqt_bag_plugins
-      - rqt_common_plugins
-      - rqt_console
-      - rqt_dep
-      - rqt_graph
-      - rqt_image_view
-      - rqt_launch
-      - rqt_logger_level
-      - rqt_msg
-      - rqt_plot
-      - rqt_publisher
-      - rqt_py_common
-      - rqt_py_console
-      - rqt_reconfigure
-      - rqt_service_caller
-      - rqt_shell
-      - rqt_srv
-      - rqt_top
-      - rqt_topic
-      - rqt_web
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rqt_common_plugins-release.git
-      version: 0.4.7-0
+      version: 0.4.8-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_common_plugins.git
       version: master
     status: developed
+  rqt_console:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_console.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_console-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_console.git
+      version: master
+    status: maintained
+  rqt_dep:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_dep.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_dep-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_dep.git
+      version: master
+    status: maintained
   rqt_ez_publisher:
     doc:
       type: git
@@ -5925,6 +6058,54 @@ repositories:
       url: https://github.com/OTL/rqt_ez_publisher.git
       version: jade-devel
     status: developed
+  rqt_graph:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_graph.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_graph-release.git
+      version: 0.4.8-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_graph.git
+      version: master
+    status: maintained
+  rqt_image_view:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_image_view.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_image_view-release.git
+      version: 0.4.8-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_image_view.git
+      version: master
+    status: maintained
+  rqt_launch:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_launch.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_launch-release.git
+      version: 0.4.8-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_launch.git
+      version: master
+    status: maintained
   rqt_launchtree:
     doc:
       type: git
@@ -5940,6 +6121,52 @@ repositories:
       url: https://github.com/pschillinger/rqt_launchtree.git
       version: master
     status: maintained
+  rqt_logger_level:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_logger_level.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_logger_level-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_logger_level.git
+      version: master
+    status: maintained
+  rqt_moveit:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_moveit.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_moveit-release.git
+      version: 0.5.7-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_moveit.git
+      version: master
+    status: maintained
+  rqt_msg:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_msg.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_msg-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_msg.git
+      version: master
+    status: maintained
   rqt_multiplot_plugin:
     doc:
       type: git
@@ -5951,38 +6178,301 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ethz-asl/rqt_multiplot_plugin-release.git
-      version: 0.0.6-0
+      version: 0.0.7-1
     source:
       type: git
       url: https://github.com/ethz-asl/rqt_multiplot_plugin.git
       version: master
     status: developed
+  rqt_nav_view:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_nav_view.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_nav_view-release.git
+      version: 0.5.7-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_nav_view.git
+      version: master
+    status: maintained
+  rqt_plot:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_plot.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_plot-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_plot.git
+      version: master
+    status: maintained
+  rqt_pose_view:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_pose_view.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_pose_view-release.git
+      version: 0.5.7-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_pose_view.git
+      version: master
+    status: maintained
+  rqt_publisher:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_publisher.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_publisher-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_publisher.git
+      version: master
+    status: maintained
+  rqt_py_console:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_py_console.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_py_console-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_py_console.git
+      version: master
+    status: maintained
+  rqt_reconfigure:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_reconfigure.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_reconfigure-release.git
+      version: 0.4.8-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_reconfigure.git
+      version: master
+    status: maintained
+  rqt_robot_dashboard:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_dashboard.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_robot_dashboard-release.git
+      version: 0.5.7-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_dashboard.git
+      version: master
+    status: maintained
+  rqt_robot_monitor:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_monitor.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_robot_monitor-release.git
+      version: 0.5.7-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_monitor.git
+      version: master
+    status: maintained
   rqt_robot_plugins:
     doc:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_plugins.git
       version: master
     release:
-      packages:
-      - rqt_moveit
-      - rqt_nav_view
-      - rqt_pose_view
-      - rqt_robot_dashboard
-      - rqt_robot_monitor
-      - rqt_robot_plugins
-      - rqt_robot_steering
-      - rqt_runtime_monitor
-      - rqt_rviz
-      - rqt_tf_tree
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rqt_robot_plugins-release.git
-      version: 0.5.6-0
+      version: 0.5.7-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_plugins.git
       version: master
     status: developed
+  rqt_robot_steering:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_steering.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_robot_steering-release.git
+      version: 0.5.7-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_steering.git
+      version: master
+    status: maintained
+  rqt_runtime_monitor:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_runtime_monitor.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_runtime_monitor-release.git
+      version: 0.5.7-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_runtime_monitor.git
+      version: master
+    status: maintained
+  rqt_rviz:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_rviz.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_rviz-release.git
+      version: 0.5.7-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_rviz.git
+      version: master
+    status: maintained
+  rqt_service_caller:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_service_caller.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_service_caller-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_service_caller.git
+      version: master
+    status: maintained
+  rqt_shell:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_shell.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_shell-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_shell.git
+      version: master
+    status: maintained
+  rqt_srv:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_srv.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_srv-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_srv.git
+      version: master
+    status: maintained
+  rqt_tf_tree:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_tf_tree.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_tf_tree-release.git
+      version: 0.5.7-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_tf_tree.git
+      version: master
+    status: maintained
+  rqt_top:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_top.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_top-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_top.git
+      version: master
+    status: maintained
+  rqt_topic:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_topic.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_topic-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_topic.git
+      version: master
+    status: maintained
+  rqt_web:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_web.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_web-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_web.git
+      version: master
+    status: maintained
   rsv_balance:
     doc:
       type: git
@@ -6280,6 +6770,21 @@ repositories:
       url: https://github.com/SmartRoboticSystems/schunk_grippers.git
       version: master
     status: maintained
+  schunk_svh_driver:
+    doc:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_driver.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_driver-release.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_driver.git
+      version: master
+    status: developed
   screen_grab:
     doc:
       type: git
@@ -6901,7 +7406,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/urdf_tutorial-release.git
-      version: 0.2.4-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/ros/urdf_tutorial.git
