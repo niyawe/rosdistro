@@ -205,6 +205,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/kinova_ros-release.git
       version: 0.0.11-0
     status: maintained
+  vocon_speech_recognizer:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/vocon_speech_recognizer-release.git
+      version: 0.0.2-0
+    status: maintained
 tags:
 - homer
 type: distribution
