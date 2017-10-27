@@ -119,7 +119,8 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_pcl_people_detection-release.git
-      version: 1.0.1-0
+      version: 1.0.2-0
+    status: unmaintained
   homer_people_tracking_msgs:
     release:
       tags:
