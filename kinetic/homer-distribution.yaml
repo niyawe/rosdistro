@@ -16,6 +16,13 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/driver_common-release.git
       version: 1.6.8-0
+  homer_boosting_target_tracking:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_boosting_target_tracking-release.git
+      version: 0.0.4-0
+    status: unmaintained
   homer_gamepad:
     release:
       tags:
