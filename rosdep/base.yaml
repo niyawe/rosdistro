@@ -167,6 +167,16 @@ autopoint:
   debian: [autopoint]
   fedora: [gettext-devel]
   ubuntu: [autopoint]
+autossh:
+  arch: [autossh]
+  debian: [autossh]
+  fedora: [autossh]
+  freebsd: [autossh]
+  gentoo: [net-misc/autossh]
+  macports: [autossh]
+  opensuse: [autossh]
+  rhel: [autossh]
+  ubuntu: [autossh]
 avahi-daemon:
   arch: [avahi]
   debian: [avahi-daemon]
@@ -831,9 +841,14 @@ gdal-bin:
   gentoo: [sci-libs/gdal]
   ubuntu: [gdal-bin]
 geographiclib:
-  debian: [libgeographiclib-dev]
+  debian:
+    buster: [libgeographic-dev]
+    jessie: [libgeographic-dev]
+    stretch: [libgeographic-dev]
+    wheezy: [libgeographiclib-dev]
   fedora: [GeographicLib-devel]
   ubuntu:
+    artful: [libgeographic-dev]
     precise: [libgeographiclib-dev]
     quantal: [libgeographiclib-dev]
     raring: [libgeographiclib-dev]
@@ -843,6 +858,8 @@ geographiclib:
     vivid: [libgeographic-dev]
     wily: [libgeographic-dev]
     xenial: [libgeographic-dev]
+    yakkety: [libgeographic-dev]
+    zesty: [libgeographic-dev]
 geographiclib-tools:
   debian: [geographiclib-tools]
   fedora: [GeographicLib]
@@ -1212,15 +1229,7 @@ java:
 joystick:
   arch: [linuxconsole]
   debian: [joystick]
-  fedora:
-    '21': [linuxconsoletools]
-    '22': [linuxconsoletools]
-    '23': [linuxconsoletools]
-    '24': [linuxconsoletools]
-    beefy: [joystick]
-    heisenbug: [linuxconsoletools]
-    schrödinger’s: [linuxconsoletools]
-    spherical: [linuxconsoletools]
+  fedora: [linuxconsoletools]
   gentoo: [games-util/joystick]
   opensuse: [input-utils]
   rhel: [joystick]
@@ -1751,6 +1760,33 @@ libgoogle-glog-dev:
   fedora: [glog-devel]
   gentoo: [dev-cpp/glog]
   ubuntu: [libgoogle-glog-dev]
+libgpgme-dev:
+  arch: [gpgme]
+  debian:
+    buster: [libgpgme-dev]
+    jessie: [libgpgme11-dev]
+    stretch: [libgpgme-dev]
+    wheezy: [libgpgme11-dev]
+  fedora: [gpgme-devel]
+  gentoo: [app-crypt/gpgme]
+  ubuntu:
+    artful: [libgpgme-dev]
+    bionic: [libgpgme-dev]
+    lucid: [libgpgme11-dev]
+    maverick: [libgpgme11-dev]
+    oneiric: [libgpgme11-dev]
+    precise: [libgpgme11-dev]
+    quantal: [libgpgme11-dev]
+    raring: [libgpgme11-dev]
+    saucy: [libgpgme11-dev]
+    trusty: [libgpgme11-dev]
+    trusty_python3: [libgpgme11-dev]
+    utopic: [libgpgme11-dev]
+    vivid: [libgpgme11-dev]
+    wily: [libgpgme11-dev]
+    xenial: [libgpgme11-dev]
+    yakkety: [libgpgme-dev]
+    zesty: [libgpgme-dev]
 libgphoto-dev:
   arch: [libgphoto2]
   debian: [libgphoto2-2-dev]
@@ -2223,9 +2259,9 @@ libopenvdb:
     zesty: [libopenvdb3.2]
 libopenvdb-dev:
   arch: [openvdb]
-  debian: [libopenvdb-dev]
+  debian: [libopenvdb-dev, libilmbase-dev]
   gentoo: [media-gfx/openvdb]
-  ubuntu: [libopenvdb-dev]
+  ubuntu: [libopenvdb-dev, libilmbase-dev]
 libosmesa6-dev:
   arch: [mesa]
   debian: [libosmesa6-dev]
@@ -2378,6 +2414,7 @@ libpqxx:
   fedora: [libpqxx]
   gentoo: [dev-libs/libpqxx]
   ubuntu:
+    artful: [libpqxx-4.0v5]
     lucid: [libpqxx-3.0]
     maverick: [libpqxx-3.0]
     natty: [libpqxx-3.0]
@@ -2389,11 +2426,16 @@ libpqxx:
     trusty: [libpqxx-4.0]
     utopic: [libpqxx-4.0]
     vivid: [libpqxx-4.0]
+    wily: [libpqxx-4.0]
+    xenial: [libpqxx-4.0]
+    yakkety: [libpqxx-4.0v5]
+    zesty: [libpqxx-4.0v5]
 libpqxx-dev:
   debian: [libpqxx-dev]
   fedora: [libpqxx-devel]
   gentoo: [dev-libs/libpqxx]
   ubuntu:
+    artful: [libpqxx-dev]
     lucid: [libpqxx3-dev]
     maverick: [libpqxx3-dev]
     natty: [libpqxx3-dev]
@@ -2405,6 +2447,10 @@ libpqxx-dev:
     trusty: [libpqxx-dev]
     utopic: [libpqxx-dev]
     vivid: [libpqxx-dev]
+    wily: [libpqxx-dev]
+    xenial: [libpqxx-dev]
+    yakkety: [libpqxx-dev]
+    zesty: [libpqxx-dev]
 libpt-dev:
   debian: [libpt-dev]
   fedora: [ptlib-devel]
@@ -2540,6 +2586,14 @@ libqt4-sql-psql:
   gentoo: ['dev-qt/qtsql:4']
   macports: [qt4-mac]
   ubuntu: [libqt4-sql-psql]
+libqt5-concurrent:
+  arch:   [qt5-base]
+  debian: [libqt5concurrent5]
+  fedora: [qt5-qtbase]
+  gentoo: ['dev-qt/qtconcurrent:5']
+  opensuse: [libQt5Concurrent5]
+  slackware: [qt5]
+  ubuntu: [libqt5concurrent5]
 libqt5-core:
   arch:   [qt5-base]
   debian: [libqt5core5a]
@@ -2577,6 +2631,12 @@ libqt5-opengl-dev:
   gentoo: ['dev-qt/qtopengl:5']
   slackware: [qt5]
   ubuntu: [libqt5opengl5-dev]
+libqt5-printsupport:
+  arch:   [qt5-base]
+  debian: [libqt5printsupport5]
+  fedora: [qt5-qtbase]
+  gentoo: ['dev-qt/qtprintsupport:5']
+  ubuntu: [libqt5printsupport5]
 libqt5-sql:
   arch:   [qt5-base]
   debian:
@@ -2927,6 +2987,7 @@ liburdfdom-tools:
   debian: [liburdfdom-tools]
   fedora: [urdfdom]
   gentoo: [dev-libs/urdfdom]
+  slackware: [urdfdom]
   ubuntu: [liburdfdom-tools]
 libusb:
   arch: [libusb-compat]
@@ -3069,12 +3130,12 @@ libvtk-java:
 libvtk-qt:
   arch: [vtk]
   debian:
-    buester: [libvtk6-qt-dev]
+    buster: [libvtk6-qt-dev]
     jessie: [libvtk5-qt4-dev]
     stretch: [libvtk6-qt-dev]
     wheezy: [libvtk5-qt4-dev]
   fedora: [vtk-qt]
-  gentoo: ['sci-libs/vtk[qt4]'] #qt5 is available too
+  gentoo: ['sci-libs/vtk[qt5,rendering]']
   opensuse: [vtk-qt]
   slackware: [VTK]
   ubuntu:
@@ -3281,7 +3342,7 @@ log4cxx:
   macports: [ros-log4cxx]
   opensuse: [liblog4cxx-devel]
   rhel: [log4cxx-devel]
-  slackware: [log4cxx]
+  slackware: [apache-log4cxx]
   ubuntu: [liblog4cxx10-dev]
 lttng-modules:
   arch: [lttng-modules]
@@ -3604,6 +3665,11 @@ openssl:
   fedora: [openssl]
   gentoo: [dev-libs/openssl]
   ubuntu: [openssl]
+optipng:
+  debian: [optipng]
+  fedora: [optipng]
+  gentoo: [media-gfx/optipng]
+  ubuntu: [optipng]
 osm2pgsql:
   debian: [osm2pgsql]
   fedora: [osm2pgsql]
@@ -3703,7 +3769,7 @@ portaudio:
   gentoo: [media-libs/portaudio]
   ubuntu: [libportaudio-dev]
 portaudio19-dev:
-  debian: [libportaudio19-dev]
+  debian: [portaudio19-dev]
   fedora: [libportaudio-devel]
   gentoo: ['=media-libs/portaudio-19*']
   ubuntu: [portaudio19-dev]
@@ -4035,7 +4101,17 @@ sparsehash:
   debian: [libsparsehash-dev]
   fedora: [sparsehash-devel]
   gentoo: [dev-cpp/sparsehash]
-  ubuntu: [sparsehash]
+  ubuntu:
+    artful: [libsparsehash-dev]
+    precise: [sparsehash]
+    saucy: [sparsehash]
+    trusty: [sparsehash]
+    utopic: [sparsehash]
+    vivid: [libsparsehash-dev]
+    wily: [libsparsehash-dev]
+    xenial: [libsparsehash-dev]
+    yakkety: [libsparsehash-dev]
+    zesty: [libsparsehash-dev]
 speex:
   debian: [speex]
   fedora: [speex, speex-tools, speexdsp]
@@ -4302,6 +4378,7 @@ tinyxml2:
   debian: [libtinyxml2-dev]
   fedora: [tinyxml2-devel]
   gentoo: [dev-libs/tinyxml2]
+  opensuse: [tinyxml2-devel]
   ubuntu: [libtinyxml2-dev]
 tix:
   arch: [tix]
@@ -4450,6 +4527,14 @@ wkhtmltopdf:
   fedora: [wkhtmltopdf]
   gentoo: [media-gfx/wkhtmltopdf]
   ubuntu: [wkhtmltopdf]
+wmctrl:
+  arch: [wmctrl]
+  debian: [wmctrl]
+  fedora: [wmctrl]
+  gentoo: [x11-misc/wmctrl]
+  opensuse: [wmctrl]
+  rhel: [wmctrl]
+  ubuntu: [wmctrl]
 workrave:
   debian: [workrave]
   fedora: [workrave]
