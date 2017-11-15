@@ -23,6 +23,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_boosting_target_tracking-release.git
       version: 0.0.6-0
     status: unmaintained
+  homer_bringup:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_bringup-release.git
+      version: 1.0.2-0
+    status: maintained
   homer_gamepad:
     release:
       tags:
