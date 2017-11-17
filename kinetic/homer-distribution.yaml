@@ -37,6 +37,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_gamepad-release.git
       version: 0.0.4-0
     status: developed
+  homer_grimey:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_grimey-release.git
+      version: 0.3.2-0
+    status: unmaintained
   homer_gripping:
     release:
       tags:
