@@ -128,6 +128,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_object_detection_lib-release.git
       version: 0.0.1-0
     status: maintained
+  homer_object_recognition_models:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_object_recognition_models-release.git
+      version: 0.0.1-0
+    status: maintained
   homer_openpose_msgs:
     release:
       tags:
