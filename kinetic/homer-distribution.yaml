@@ -156,13 +156,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_pcl_people_detection-release.git
       version: 1.0.3-0
     status: unmaintained
-  homer_pdf_creator_lib:
-    release:
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: git@gitlab.uni-koblenz.de:robbie/homer_pdf_creator_lib-release.git
-      version: 0.0.2-0
-    status: unmaintained
+  #homer_pdf_creator_lib:
+    #release:
+      #tags:
+        #release: release/kinetic/{package}/{version}
+      #url: git@gitlab.uni-koblenz.de:robbie/homer_pdf_creator_lib-release.git
+      #version: 0.0.2-0
+    #status: unmaintained
   homer_people_tracking_msgs:
     release:
       tags:
