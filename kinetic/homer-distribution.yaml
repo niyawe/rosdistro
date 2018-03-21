@@ -30,6 +30,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_bringup-release.git
       version: 1.0.11-0
     status: maintained
+  homer_cfr_grammar_parser:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_cfr_grammar_parser-release.git
+      version: 0.0.1-0
+    status: unmaintained
   homer_estop:
     release:
       tags:
