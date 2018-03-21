@@ -129,6 +129,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_lisa_description-release.git
       version: 0.0.1-0
     status: maintained
+  homer_lu4r_action_execution:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_lu4r_action_execution-release.git
+      version: 0.0.1-0
+    status: maintained
   homer_mapping:
     release:
       packages:
