@@ -129,6 +129,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_lila_lisa_katana_moveit_config-release.git
       version: 0.2.2-0
     status: unmaintained
+  homer_lila_lisa_moveit_config:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_lila_lisa_moveit_config-release
+      version: 0.2.1-0
+    status: unmaintained
   homer_lisa_description:
     release:
       tags:
