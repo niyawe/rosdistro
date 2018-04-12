@@ -70,14 +70,14 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_gripping-release.git
-      version: 1.1.21-0
+      version: 1.1.23-0
     status: maintained
   homer_gripping_msgs:
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_gripping_msgs-release.git
-      version: 1.0.6-0
+      version: 1.0.7-0
     status: maintained
   homer_hardware:
     release:
@@ -356,14 +356,14 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_vision-release.git
-      version: 0.1.34-0
+      version: 0.1.35-0
     status: maintained
   homer_yolo:
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_yolo-release.git
-      version: 0.0.6-0
+      version: 0.0.8-0
     status: maintained
   homer_zbar:
     release:
