@@ -281,6 +281,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_ptu_msgs-release.git
       version: 0.1.8-0
     status: maintained
+  homer_rgbd_node:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_rgbd_node-release.git
+      version: 0.1.38-1
+    status: maintained
   homer_robbie_architecture:
     release:
       tags:
