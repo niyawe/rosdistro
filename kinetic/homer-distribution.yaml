@@ -354,7 +354,6 @@ repositories:
       - homer_color_depth_mapper
       - homer_color_recognizer
       - homer_face_detection
-      - homer_object_detection_msgs
       - homer_or_libs
       - homer_or_msgs
       - homer_or_nodes
