@@ -370,7 +370,6 @@ repositories:
   homer_vision:
     release:
       packages:
-      - homer_color_depth_mapper
       - homer_color_recognizer
       - homer_face_detection
       - homer_or_libs
