@@ -333,6 +333,12 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_semantic_knowledgebase-release.git
       version: 0.1.5-0
     status: maintained
+  homer_simple_named_color_histogram:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_simple_named_color_histogram-release.git
+      version: 0.1.38-0
   homer_tiago_moveit_config:
     release:
       tags:
