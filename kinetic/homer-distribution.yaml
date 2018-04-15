@@ -369,7 +369,6 @@ repositories:
       - homer_or_libs
       - homer_or_msgs
       - homer_or_nodes
-      - homer_rgbd_node
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_vision-release.git
