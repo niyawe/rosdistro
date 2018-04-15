@@ -399,7 +399,6 @@ repositories:
     release:
       packages:
       - homer_face_detection
-      - homer_or_libs
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_vision-release.git
