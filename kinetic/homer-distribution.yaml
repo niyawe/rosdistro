@@ -386,7 +386,6 @@ repositories:
       packages:
       - homer_face_detection
       - homer_or_libs
-      - homer_or_msgs
       - homer_or_nodes
       tags:
         release: release/kinetic/{package}/{version}
