@@ -65,6 +65,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_estop-release.git
       version: 0.0.5-0
     status: maintained
+  homer_face_detection:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_face_detection-release.git
+      version: 0.1.38-0
+    status: maintained
   homer_face_rec:
     release:
       tags:
