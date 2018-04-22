@@ -300,7 +300,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_people_following-release.git
-      version: 0.0.14-0
+      version: 0.0.16-0
     status: maintained
   homer_people_tracker:
     release:
