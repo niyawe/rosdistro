@@ -452,6 +452,14 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/kinova_ros-release.git
       version: 0.0.13-0
     status: maintained
+  roah_rsbb_comm_ros:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/at_home_rsbb_comm_ros-release.git
+      version: 0.0.1-0
+    status: unmaintained
+    status_description: end-of-life
   vocon_speech_recognizer:
     release:
       tags:
