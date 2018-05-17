@@ -457,7 +457,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/at_home_rsbb_comm_ros-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     status: unmaintained
     status_description: end-of-life
   vocon_speech_recognizer:
