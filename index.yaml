@@ -22,7 +22,7 @@ distributions:
     distribution: [lunar/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/lunar-cache.yaml.gz
   melodic:
-    distribution: [melodic/distribution.yaml]
-    distribution_cache: http://repositories.ros.org/rosdistro_cache/melodic-cache.yaml.gz
+    distribution: [melodic/distribution.yaml,melodic/homer-distribution.yaml]
+    distribution_cache: http://homer-repo.uni-koblenz.de/rosdistro_cache/melodic-cache.yaml.gz
 type: index
 version: 3
