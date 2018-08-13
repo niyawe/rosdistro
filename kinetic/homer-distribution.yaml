@@ -30,6 +30,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/gazebo_ros_pkgs-release.git
       version: 2.6.7-0
     status: maintained
+  head_action:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/head_action-release.git
+      version: 0.0.1-0
+    status: maintained
   homer_boosting_target_tracking:
     release:
       tags:
