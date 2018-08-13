@@ -16,6 +16,20 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/driver_common-release.git
       version: 1.6.8-0
+  gazebo_ros_pkgs:
+    release:
+      packages:
+      - gazebo_dev
+      - gazebo_msgs
+      - gazebo_plugins
+      - gazebo_ros
+      - gazebo_ros_control
+      - gazebo_ros_pkgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/gazebo_ros_pkgs-release.git
+      version: 2.6.7-0
+    status: maintained
   homer_boosting_target_tracking:
     release:
       tags:
