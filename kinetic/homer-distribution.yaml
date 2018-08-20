@@ -495,6 +495,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/pal_gazebo_plugins-release.git
       version: 1.1.8-0
     status: maintained
+  pal_hardware_gazebo:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/pal_hardware_gazebo-release.git
+      version: 0.1.1-0
+    status: maintained
   pal_hardware_interfaces:
     release:
       tags:
