@@ -562,6 +562,16 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/pal_python-release.git
       version: 0.9.14-0
     status: maintained
+  play_motion:
+    release:
+      packages:
+      - play_motion
+      - play_motion_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/play_motion-release.git
+      version: 0.4.5-0
+    status: maintained
   roah_rsbb_comm_ros:
     release:
       tags:
