@@ -129,7 +129,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/adi_driver-release.git
-      version: 1.0.1-0
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/tork-a/adi_driver.git
@@ -739,16 +739,19 @@ repositories:
       packages:
       - astuff_sensor_msgs
       - delphi_esr_msgs
+      - delphi_mrr_msgs
       - delphi_srr_msgs
+      - derived_object_msgs
       - ibeo_msgs
       - kartech_linear_actuator_msgs
       - mobileye_560_660_msgs
       - neobotix_usboard_msgs
       - pacmod_msgs
+      - radar_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/astuff/astuff_sensor_msgs-release.git
-      version: 2.0.1-0
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/astuff/astuff_sensor_msgs.git
@@ -826,6 +829,25 @@ repositories:
       url: https://github.com/ros-drivers/audio_common.git
       version: indigo-devel
     status: maintained
+  automotive_autonomy_msgs:
+    doc:
+      type: git
+      url: https://github.com/astuff/automotive_autonomy_msgs.git
+      version: release
+    release:
+      packages:
+      - automotive_autonomy_msgs
+      - automotive_navigation_msgs
+      - automotive_platform_msgs
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/astuff/automotive_autonomy_msgs-release.git
+      version: 2.0.2-0
+    source:
+      type: git
+      url: https://github.com/astuff/automotive_autonomy_msgs.git
+      version: master
+    status: developed
   auv_msgs:
     doc:
       type: git
@@ -2489,6 +2511,27 @@ repositories:
       url: https://bitbucket.org/DataspeedInc/dataspeed_pds
       version: default
     status: developed
+  dbw_fca_ros:
+    doc:
+      type: hg
+      url: https://bitbucket.org/DataspeedInc/dbw_fca_ros
+      version: default
+    release:
+      packages:
+      - dbw_fca
+      - dbw_fca_can
+      - dbw_fca_description
+      - dbw_fca_joystick_demo
+      - dbw_fca_msgs
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/DataspeedInc-release/dbw_fca_ros-release.git
+      version: 0.0.1-0
+    source:
+      type: hg
+      url: https://bitbucket.org/DataspeedInc/dbw_fca_ros
+      version: default
+    status: maintained
   dbw_mkz_ros:
     doc:
       type: hg
@@ -5397,12 +5440,6 @@ repositories:
       url: https://github.com/ipa320/ipa_canopen.git
       version: indigo_dev
     status: end-of-life
-  ira_photonfocus_driver:
-    source:
-      type: git
-      url: https://github.com/iralabdisco/ira_photonfocus_driver.git
-      version: master
-    status: maintained
   iss_taskboard_gazebo:
     doc:
       type: git
@@ -6180,16 +6217,6 @@ repositories:
       type: git
       url: https://github.com/uos/kurt_navigation.git
       version: indigo
-  kvaser_interface:
-    doc:
-      type: git
-      url: https://github.com/astuff/kvaser_interface.git
-      version: release
-    source:
-      type: git
-      url: https://github.com/astuff/kvaser_interface.git
-      version: release
-    status: maintained
   lama:
     doc:
       type: git
@@ -7756,7 +7783,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.8.1-0
+      version: 0.8.2-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -9199,6 +9226,21 @@ repositories:
       url: https://github.com/astuff/pacmod.git
       version: release
     status: maintained
+  pacmod3:
+    doc:
+      type: git
+      url: https://github.com/astuff/pacmod3.git
+      version: release
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/astuff/pacmod3-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/astuff/pacmod3.git
+      version: master
+    status: developed
   pacmod_game_control:
     doc:
       type: git
@@ -9208,7 +9250,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/astuff/pacmod_game_control-release.git
-      version: 2.0.0-0
+      version: 2.1.0-0
     source:
       type: git
       url: https://github.com/astuff/pacmod_game_control.git
@@ -9676,7 +9718,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 1.7.1-1
+      version: 1.8.0-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -14312,7 +14354,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/schunk_modular_robotics-release.git
-      version: 0.6.11-0
+      version: 0.6.12-0
     source:
       type: git
       url: https://github.com/ipa320/schunk_modular_robotics.git
@@ -15594,7 +15636,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.4.4-0
+      version: 0.4.5-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
