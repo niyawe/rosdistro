@@ -580,6 +580,25 @@ repositories:
       version: 0.0.6-0
     status: unmaintained
     status_description: end-of-life
+  ros_control:
+    release:
+      packages:
+      - combined_robot_hw
+      - combined_robot_hw_tests
+      - controller_interface
+      - controller_manager
+      - controller_manager_msgs
+      - controller_manager_tests
+      - hardware_interface
+      - joint_limits_interface
+      - ros_control
+      - rqt_controller_manager
+      - transmission_interface
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/ros_control-release.git
+      version: 0.2.6-0
+    status: maintained
   tf_lookup:
     release:
       tags:
