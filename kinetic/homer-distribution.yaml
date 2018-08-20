@@ -16,6 +16,13 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/driver_common-release.git
       version: 1.6.8-0
+  dynamic_introspection:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/dynamic_introspection-release.git
+      version: 1.0.7-0
+    status: maintained
   gazebo_ros_pkgs:
     release:
       packages:
