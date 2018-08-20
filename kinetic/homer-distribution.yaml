@@ -580,6 +580,13 @@ repositories:
       version: 0.0.6-0
     status: unmaintained
     status_description: end-of-life
+  tf_lookup:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/tf_lookup-release.git
+      version: 0.0.1-0
+    status: maintained
   vocon_speech_recognizer:
     release:
       tags:
