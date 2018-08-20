@@ -481,6 +481,31 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/kinova_ros-release.git
       version: 0.0.13-0
     status: maintained
+  pal_msgs:
+    release:
+      packages:
+      - pal_behaviour_msgs
+      - pal_common_msgs
+      - pal_control_msgs
+      - pal_detection_msgs
+      - pal_device_msgs
+      - pal_interaction_msgs
+      - pal_motion_model_msgs
+      - pal_msgs
+      - pal_multirobot_msgs
+      - pal_navigation_msgs
+      - pal_tablet_msgs
+      - pal_video_recording_msgs
+      - pal_vision_msgs
+      - pal_visual_localization_msgs
+      - pal_walking_msgs
+      - pal_web_msgs
+      - pal_wifi_localization_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/pal_msgs-release.git
+      version: 0.11.3-0
+    status: maintained
   roah_rsbb_comm_ros:
     release:
       tags:
