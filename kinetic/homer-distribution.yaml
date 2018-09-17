@@ -463,6 +463,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_tools-release.git
       version: 0.1.2-1
     status: maintained
+  homer_tts:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_tts-release.git
+      version: 1.0.28-2
+    status: maintained
   homer_yolo:
     release:
       tags:
