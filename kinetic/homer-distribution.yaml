@@ -396,8 +396,6 @@ repositories:
     status: maintained
   homer_robot_face:
     release:
-      packages:
-      - homer_robot_face
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_robot_face-release.git
