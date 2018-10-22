@@ -49,7 +49,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_bringup-release.git
-      version: 1.0.30-0
+      version: 1.0.33-0
     status: maintained
   homer_cfr_grammar_parser:
     release:
@@ -98,7 +98,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_face_rec-release.git
-      version: 0.0.13-0
+      version: 0.0.17-0
     status: maintained
   homer_gamepad:
     release:
@@ -119,14 +119,14 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_gripping-release.git
-      version: 1.1.42-0
+      version: 1.1.44-0
     status: maintained
   homer_gripping_msgs:
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_gripping_msgs-release.git
-      version: 1.0.20-0
+      version: 1.0.22-1
     status: maintained
   homer_hardware:
     release:
@@ -224,7 +224,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_mapping-release.git
-      version: 0.1.45-0
+      version: 0.1.46-0
     status: maintained
   homer_maps:
     release:
@@ -238,7 +238,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_mask_rcnn-release.git
-      version: 0.1.9-1
+      version: 0.1.12-0
     status: maintained
   homer_matrix_creator:
     release:
@@ -259,14 +259,14 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_multimaster-release.git
-      version: 0.0.13-0
+      version: 0.0.14-0
     status: developed
   homer_object_detection:
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_object_detection-release.git
-      version: 0.0.10-0
+      version: 0.0.11-0
     status: maintained
   homer_object_detection_lib:
     release:
@@ -371,7 +371,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_rgbd_node-release.git
-      version: 0.1.41-0
+      version: 0.1.42-0
     status: maintained
   homer_robbie_architecture:
     release:
@@ -382,13 +382,10 @@ repositories:
     status: maintained
   homer_robot_face:
     release:
-      packages:
-      - homer_robot_face
-      - homer_tts
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_robot_face-release.git
-      version: 1.0.27-0
+      version: 1.0.28-0
     status: maintained
   homer_robot_platform:
     release:
@@ -436,14 +433,14 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_tiago_moveit_config-release.git
-      version: 0.0.29-0
+      version: 0.0.34-0
     status: maintained
   homer_tiago_wrapper:
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_tiago_wrapper-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     status: maintained
   homer_tools:
     release:
@@ -451,6 +448,13 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_tools-release.git
       version: 0.1.2-1
+    status: maintained
+  homer_tts:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_tts-release.git
+      version: 1.0.28-2
     status: maintained
   homer_yolo:
     release:
