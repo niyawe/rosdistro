@@ -100,6 +100,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_face_rec-release.git
       version: 0.0.17-0
     status: maintained
+  homer_face_rec_data:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_face_rec_data-release.git
+      version: 0.0.1-0
+    status: maintained
   homer_gamepad:
     release:
       tags:
