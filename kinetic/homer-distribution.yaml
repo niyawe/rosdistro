@@ -133,6 +133,12 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_gamepad-release.git
       version: 0.0.6-0
     status: developed
+  homer_gazebo_worlds:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_gazebo_worlds-release.git
+      version: 0.0.2-0
   homer_grimey:
     release:
       tags:
