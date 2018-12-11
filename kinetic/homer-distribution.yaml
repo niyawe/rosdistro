@@ -263,7 +263,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_mapping-release.git
-      version: 0.1.50-0
+      version: 0.1.51-0
     status: maintained
   homer_maps:
     release:
