@@ -70,6 +70,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_bringup-release.git
       version: 1.0.37-0
     status: maintained
+  homer_calibration:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_calibration-release.git
+      version: 0.0.2-0
+    status: maintained
   homer_cfr_grammar_parser:
     release:
       tags:
