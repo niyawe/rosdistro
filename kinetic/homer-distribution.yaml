@@ -259,19 +259,6 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_lu4r_action_execution-release.git
       version: 0.0.6-0
     status: maintained
-  homer_mapping:
-    release:
-      packages:
-      - homer_map_manager
-      - homer_mapnav_msgs
-      - homer_mapping
-      - homer_nav_libs
-      - homer_navigation
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: git@gitlab.uni-koblenz.de:robbie/homer_mapping-release.git
-      version: 0.1.52-0
-    status: maintained
   homer_maps:
     release:
       tags:
