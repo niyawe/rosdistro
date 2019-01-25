@@ -315,13 +315,6 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_multimaster-release.git
       version: 0.0.14-0
     status: developed
-  homer_nav_libs:
-    release:
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: git@gitlab.uni-koblenz.de:robbie/homer_nav_libs-release.git
-      version: 0.1.53-0
-    status: maintained
   homer_navigation:
     release:
       tags:
