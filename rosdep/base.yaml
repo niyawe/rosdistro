@@ -3125,6 +3125,8 @@ libstdc++5:
   gentoo: [virtual/libstdc++]
   opensuse: [libstdc++33]
   ubuntu: [libstdc++5]
+libstdc++6:
+  ubuntu: [libstdc++6]
 libsvm-dev:
   debian: [libsvm-dev]
   fedora: [libsvm-devel]
