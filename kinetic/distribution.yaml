@@ -1774,7 +1774,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/control_toolbox-release.git
-      version: 1.16.0-0
+      version: 1.17.0-0
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -2413,6 +2413,12 @@ repositories:
       url: https://github.com/tork-a/dynpick_driver.git
       version: master
     status: maintained
+  earth_rover_localization:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/earthrover/earth_rover_localization-release.git
+      version: 1.0.0-1
   eband_local_planner:
     doc:
       type: git
@@ -2628,6 +2634,13 @@ repositories:
       url: https://github.com/ros/eigen_stl_containers.git
       version: master
     status: maintained
+  eigenpy:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
+      version: 1.5.0-0
+    status: developed
   eml:
     release:
       tags:
@@ -3104,7 +3117,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/rqt_frame_editor_plugin-release.git
-      version: 1.0.2-1
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/ipa320/rqt_frame_editor_plugin.git
@@ -3841,7 +3854,11 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros-release.git
-      version: 2.0.1-1
+      version: 2.0.2-0
+    source:
+      type: git
+      url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
+      version: master
     status: developed
   hebiros:
     doc:
@@ -4004,7 +4021,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/clearpath-gbp/heron_desktop-release.git
-      version: 0.0.2-1
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/heron/heron_desktop.git
@@ -4128,6 +4145,13 @@ repositories:
       url: https://gitlab.uni-koblenz.de/robbie/homer_robot_face-release.git
       version: 1.0.18-1
     status: developed
+  homer_tts:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://gitlab.uni-koblenz.de/robbie/homer_tts-release.git
+      version: 1.0.29-0
+    status: maintained
   household_objects_database_msgs:
     doc:
       type: git
@@ -4523,7 +4547,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/imu_pipeline-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/ros-perception/imu_pipeline.git
@@ -4549,6 +4573,11 @@ repositories:
       url: https://github.com/ccny-ros-pkg/imu_tools.git
       version: kinetic
     status: developed
+  indoor_localization:
+    doc:
+      type: git
+      url: https://github.com/inomuh/indoor_localization.git
+      version: master
   indoor_positioning:
     doc:
       type: git
@@ -8646,7 +8675,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.0.3-0
+      version: 2.0.4-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -11138,6 +11167,21 @@ repositories:
       url: https://github.com/ros-gbp/rosbag_migration_rule-release.git
       version: 1.0.0-0
     status: maintained
+  rosbash_params:
+    doc:
+      type: git
+      url: https://github.com/peci1/rosbash_params.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/peci1/rosbash_params-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/peci1/rosbash_params.git
+      version: master
+    status: developed
   rosbridge_suite:
     doc:
       type: git
@@ -12699,7 +12743,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/SICKAG/sick_scan-release.git
-      version: 0.0.13-0
+      version: 0.0.14-0
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan.git
@@ -14529,7 +14573,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/velodyne-release.git
-      version: 1.5.1-0
+      version: 1.5.2-0
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
@@ -14939,7 +14983,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/RobotWebTools-release/web_video_server-release.git
-      version: 0.1.0-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/RobotWebTools/web_video_server.git
