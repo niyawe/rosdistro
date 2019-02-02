@@ -236,7 +236,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_lisa_description-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     status: maintained
   homer_lisa_gazebo:
     release:
