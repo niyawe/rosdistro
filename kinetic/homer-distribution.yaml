@@ -180,7 +180,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_hardware-release.git
-      version: 0.1.28-0
+      version: 0.1.29-0
     status: developed
   homer_home_net:
     release:
