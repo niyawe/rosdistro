@@ -488,7 +488,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_scratchy_moveit_config-release.git
-      version: 0.3.2-0
+      version: 0.3.3-0
     status: maintained
   homer_semantic_knowledgebase:
     release:
