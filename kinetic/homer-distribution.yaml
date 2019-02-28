@@ -170,7 +170,6 @@ repositories:
   homer_hardware:
     release:
       packages:
-      - hokuyo_node
       - homer_hardware_state
       - homer_hardware_tools
       - homer_ptu
