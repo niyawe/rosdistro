@@ -193,6 +193,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_hardware_state-release.git
       version: 0.1.30-1
     status: maintained
+  homer_hardware_tools:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_hardware_tools-release.git
+      version: 0.1.30-0
+    status: maintained
   homer_home_net:
     release:
       tags:
