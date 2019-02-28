@@ -177,7 +177,6 @@ repositories:
   homer_hardware:
     release:
       packages:
-      - homer_hardware_tools
       - homer_ptu
       - liblms1xx
       - lms1xx
