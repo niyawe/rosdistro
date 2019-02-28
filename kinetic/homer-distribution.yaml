@@ -174,15 +174,6 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_gripping_msgs-release.git
       version: 1.0.23-0
     status: maintained
-  homer_hardware:
-    release:
-      packages:
-      - sick_300_laser_scanner_node
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: git@gitlab.uni-koblenz.de:robbie/homer_hardware-release.git
-      version: 0.1.29-0
-    status: developed
   homer_hardware_state:
     release:
       tags:
