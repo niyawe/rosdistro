@@ -177,7 +177,6 @@ repositories:
   homer_hardware:
     release:
       packages:
-      - lms1xx
       - sick_300_laser_scanner_node
       tags:
         release: release/kinetic/{package}/{version}
