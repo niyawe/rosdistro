@@ -177,7 +177,6 @@ repositories:
   homer_hardware:
     release:
       packages:
-      - homer_ptu
       - liblms1xx
       - lms1xx
       - sick_300_laser_scanner_node
