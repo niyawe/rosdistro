@@ -591,6 +591,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/liblms1xx-release.git
       version: 0.1.30-1
     status: maintained
+  lms1xx:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/lms1xx-release.git
+      version: 0.1.30-0
+    status: maintained
   roah_rsbb_comm_ros:
     release:
       tags:
