@@ -82,7 +82,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_calibration-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     status: maintained
   homer_cfr_grammar_parser:
     release:
