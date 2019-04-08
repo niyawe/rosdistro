@@ -131,7 +131,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_face_rec-release.git
-      version: 0.0.21-0
+      version: 0.0.22-0
     status: maintained
   homer_face_rec_data:
     release:
@@ -298,7 +298,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_mask_rcnn-release.git
-      version: 0.1.14-0
+      version: 0.1.15-0
     status: maintained
   homer_matrix_creator:
     release:
@@ -549,7 +549,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_yolo-release.git
-      version: 0.0.17-0
+      version: 0.0.18-0
     status: maintained
   homer_zbar:
     release:
