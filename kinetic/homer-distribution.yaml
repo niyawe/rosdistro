@@ -202,13 +202,6 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_imitate-release.git
       version: 0.0.2-0
     status: maintained
-  homer_kinova_original:
-    release:
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: git@gitlab.uni-koblenz.de:robbie/homer_kinova_original-release.git
-      version: 0.3.3-0
-    status: unmaintained
   homer_lark_parser:
     release:
       tags:
