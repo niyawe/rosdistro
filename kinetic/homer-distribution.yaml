@@ -340,7 +340,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_object_detection-release.git
-      version: 0.0.18-0
+      version: 0.0.19-0
     status: maintained
   homer_object_detection_lib:
     release:
