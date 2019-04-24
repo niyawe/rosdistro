@@ -44,8 +44,8 @@ distributions:
     distribution_status: end-of-life
     distribution_type: ros1
   kinetic:
-    distribution: [kinetic/distribution.yaml]
-    distribution_cache: http://repositories.ros.org/rosdistro_cache/kinetic-cache.yaml.gz
+    distribution: [kinetic/distribution.yaml,kinetic/homer-distribution.yaml]
+    distribution_cache: http://homer-repo.uni-koblenz.de/rosdistro_cache/kinetic-cache.yaml.gz
     distribution_status: active
     distribution_type: ros1
   lunar:
@@ -54,8 +54,8 @@ distributions:
     distribution_status: active
     distribution_type: ros1
   melodic:
-    distribution: [melodic/distribution.yaml]
-    distribution_cache: http://repositories.ros.org/rosdistro_cache/melodic-cache.yaml.gz
+    distribution: [melodic/distribution.yaml,melodic/homer-distribution.yaml]
+    distribution_cache: http://homer-repo.uni-koblenz.de/rosdistro_cache/melodic-cache.yaml.gz
     distribution_status: active
     distribution_type: ros1
 type: index
