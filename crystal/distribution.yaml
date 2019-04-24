@@ -10,7 +10,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: master
+      version: crystal
     release:
       packages:
       - ament_cmake
@@ -34,18 +34,18 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 0.6.0-4
+      version: 0.6.1-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: master
+      version: crystal
     status: developed
   ament_cmake_ros:
     doc:
       type: git
       url: https://github.com/ros2/ament_cmake_ros.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -55,13 +55,13 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ament_cmake_ros.git
-      version: master
+      version: crystal
     status: developed
   ament_index:
     doc:
       type: git
       url: https://github.com/ament/ament_index.git
-      version: master
+      version: crystal
     release:
       packages:
       - ament_index_cpp
@@ -73,13 +73,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/ament_index.git
-      version: master
+      version: crystal
     status: developed
   ament_lint:
     doc:
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: master
+      version: crystal
     release:
       packages:
       - ament_clang_format
@@ -111,12 +111,12 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/ament_lint-release.git
-      version: 0.6.3-0
+      version: 0.6.4-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: master
+      version: crystal
     status: developed
   ament_package:
     release:
@@ -127,7 +127,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/ament_package.git
-      version: master
+      version: crystal
     status: maintained
   angles:
     doc:
@@ -196,11 +196,29 @@ repositories:
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
       version: ros2
     status: developed
+  behaviotree_cpp_v3:
+    doc:
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    release:
+      packages:
+      - behaviortree_cpp_v3
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
+      version: 3.0.4-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    status: developed
   class_loader:
     doc:
       type: git
       url: https://github.com/ros/class_loader.git
-      version: ros2
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -210,12 +228,12 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/class_loader.git
-      version: ros2
+      version: crystal
   common_interfaces:
     doc:
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: master
+      version: crystal
     release:
       packages:
       - actionlib_msgs
@@ -238,13 +256,13 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: master
+      version: crystal
     status: developed
   console_bridge_vendor:
     doc:
       type: git
       url: https://github.com/ros2/console_bridge_vendor.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -254,7 +272,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/console_bridge_vendor.git
-      version: master
+      version: crystal
     status: developed
   control_msgs:
     doc:
@@ -275,7 +293,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/demos.git
-      version: master
+      version: crystal
     release:
       packages:
       - composition
@@ -300,22 +318,33 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: master
+      version: crystal
     status: developed
   depthimage_to_laserscan:
     doc:
       type: git
-      url: https://github.com/ros2/depthimage_to_laserscan.git
+      url: https://github.com/ros-perception/depthimage_to_laserscan.git
       version: ros2
     release:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/depthimage_to_laserscan-release.git
-      version: 2.2.0-0
+      version: 2.2.1-0
     source:
       type: git
-      url: https://github.com/ros2/depthimage_to_laserscan.git
+      url: https://github.com/ros-perception/depthimage_to_laserscan.git
       version: ros2
+    status: maintained
+  diagnostics:
+    doc:
+      type: git
+      url: https://github.com/ros/diagnostics.git
+      version: ros2-devel
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/diagnostics.git
+      version: ros2-devel
     status: maintained
   ecl_core:
     doc:
@@ -401,27 +430,42 @@ repositories:
       url: https://github.com/stonier/ecl_tools.git
       version: release/1.0-crystal
     status: maintained
+  eigen_stl_containers:
+    doc:
+      type: git
+      url: https://github.com/ros/eigen_stl_containers.git
+      version: ros2
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/ros2-gbp/eigen_stl_containers-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/ros/eigen_stl_containers.git
+      version: ros2
+    status: maintained
   example_interfaces:
     doc:
       type: git
       url: https://github.com/ros2/example_interfaces.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/example_interfaces-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/example_interfaces.git
-      version: bouncy
+      version: crystal
     status: developed
   examples:
     doc:
       type: git
       url: https://github.com/ros2/examples.git
-      version: master
+      version: crystal
     release:
       packages:
       - examples_rclcpp_minimal_action_client
@@ -433,6 +477,8 @@ repositories:
       - examples_rclcpp_minimal_subscriber
       - examples_rclcpp_minimal_timer
       - examples_rclpy_executors
+      - examples_rclpy_minimal_action_client
+      - examples_rclpy_minimal_action_server
       - examples_rclpy_minimal_client
       - examples_rclpy_minimal_publisher
       - examples_rclpy_minimal_service
@@ -440,12 +486,12 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/examples-release.git
-      version: 0.6.1-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/examples.git
-      version: master
+      version: crystal
     status: developed
   fastcdr:
     release:
@@ -455,25 +501,27 @@ repositories:
       version: 1.0.8-0
     source:
       test_commits: false
+      test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: master
+      version: v1.0.8
     status: developed
   fastrtps:
     doc:
       type: git
       url: https://github.com/eProsima/Fast-RTPS.git
-      version: master
+      version: b48ce9d2fba6fc94e756da01c58b72f2ad848238
     release:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 1.7.0-0
+      version: 1.7.2-0
     source:
       test_commits: false
+      test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-RTPS.git
-      version: master
+      version: b48ce9d2fba6fc94e756da01c58b72f2ad848238
     status: developed
   fmi_adapter_ros2:
     doc:
@@ -487,7 +535,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/boschresearch/fmi_adapter_ros2-release.git
-      version: 0.1.2-0
+      version: 0.1.3-0
     source:
       type: git
       url: https://github.com/boschresearch/fmi_adapter_ros2.git
@@ -497,7 +545,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: ros2
+      version: crystal
     release:
       packages:
       - gazebo_dev
@@ -508,18 +556,18 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros_pkgs-release.git
-      version: 3.1.0-0
+      version: 3.2.0-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: ros2
+      version: crystal
     status: developed
   geometry2:
     doc:
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: ros2
+      version: crystal
     release:
       packages:
       - tf2
@@ -536,7 +584,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: ros2
+      version: crystal
     status: maintained
   googletest:
     release:
@@ -550,13 +598,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/googletest.git
-      version: ros2
+      version: crystal
     status: developed
   image_common:
     doc:
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: ros2
+      version: crystal
     release:
       packages:
       - camera_calibration_parsers
@@ -570,7 +618,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: ros2
+      version: crystal
     status: maintained
   image_pipeline:
     doc:
@@ -616,7 +664,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/joystick_drivers.git
-      version: ros2
+      version: crystal
     release:
       packages:
       - joy
@@ -634,7 +682,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/kdl_parser.git
-      version: ros2
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -644,7 +692,18 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/kdl_parser.git
-      version: ros2
+      version: crystal
+    status: developed
+  keystroke:
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/RoverRobotics/ros2-keystroke-release.git
+      version: 0.2.2-2
+    source:
+      type: git
+      url: https://github.com/RoverRobotics/ros2-keystroke.git
+      version: master
     status: developed
   laser_geometry:
     doc:
@@ -665,7 +724,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/launch.git
-      version: master
+      version: crystal
     release:
       packages:
       - launch
@@ -675,11 +734,11 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/launch-release.git
-      version: 0.7.3-0
+      version: 0.7.4-0
     source:
       type: git
       url: https://github.com/ros2/launch.git
-      version: master
+      version: crystal
     status: maintained
   librealsense:
     doc:
@@ -707,13 +766,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/libyaml_vendor.git
-      version: master
+      version: crystal
     status: developed
   message_filters:
     doc:
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -723,13 +782,67 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
+      version: crystal
+    status: maintained
+  micro-ROS-Agent:
+    release:
+      packages:
+      - micro_ros_agent
+      - microxrcedds_agent_cmake_module
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/micro-ROS/micro-ROS-Agent-release.git
+      version: 0.0.1-2
+    source:
+      test_commits: false
+      test_pull_requests: false
+      type: git
+      url: https://github.com/micro-ROS/micro-ROS-Agent.git
+      version: v0.0.1
+    status: developed
+  micro-xrce-dds-agent:
+    doc:
+      type: git
+      url: https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
+      version: v1.0.3
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/micro-ROS/Micro-XRCE-DDS-Agent-release.git
+      version: 1.0.3-1
+    source:
+      test_commits: false
+      test_pull_requests: false
+      type: git
+      url: https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
+      version: v1.0.3
+    status: developed
+  ml_classifiers:
+    doc:
+      type: git
+      url: https://github.com/astuff/ml_classifiers.git
+      version: master
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/astuff/ml_classifiers-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/astuff/ml_classifiers.git
       version: master
     status: maintained
+  mrpt2:
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/mrpt-ros2-pkg-release/mrpt2-release.git
+      version: 1.9.9-0
   navigation2:
     doc:
       type: git
       url: https://github.com/ros-planning/navigation2.git
-      version: master
+      version: crystal-devel
     release:
       packages:
       - costmap_queue
@@ -741,6 +854,7 @@ repositories:
       - nav2_amcl
       - nav2_bringup
       - nav2_bt_navigator
+      - nav2_common
       - nav2_costmap_2d
       - nav2_dwb_controller
       - nav2_dynamic_params
@@ -751,7 +865,6 @@ repositories:
       - nav2_navfn_planner
       - nav2_robot
       - nav2_simple_navigator
-      - nav2_system_tests
       - nav2_tasks
       - nav2_util
       - nav2_voxel_grid
@@ -762,12 +875,12 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/SteveMacenski/navigation2-release.git
-      version: 0.1.5-0
+      version: 0.1.7-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-planning/navigation2.git
-      version: master
+      version: crystal-devel
     status: maintained
   navigation_msgs:
     doc:
@@ -780,7 +893,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/navigation_msgs-release.git
-      version: 2.0.0-0
+      version: 2.0.1-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation_msgs.git
@@ -801,7 +914,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/orocos_kinematics_dynamics.git
-      version: ros2
+      version: crystal
     release:
       packages:
       - orocos_kdl
@@ -813,7 +926,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/orocos_kinematics_dynamics.git
-      version: ros2
+      version: crystal
     status: developed
   osrf_pycommon:
     doc:
@@ -835,7 +948,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
-      version: master
+      version: crystal
     release:
       packages:
       - osrf_testing_tools_cpp
@@ -847,13 +960,13 @@ repositories:
     source:
       type: git
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
-      version: master
+      version: crystal
     status: developed
   pcl_conversions:
     doc:
       type: git
       url: https://github.com/ros2/pcl_conversions.git
-      version: ros2
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -863,13 +976,13 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/pcl_conversions.git
-      version: ros2
+      version: crystal
     status: developed
   pluginlib:
     doc:
       type: git
       url: https://github.com/ros/pluginlib.git
-      version: ros2
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -879,13 +992,13 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/pluginlib.git
-      version: ros2
+      version: crystal
     status: developed
   poco_vendor:
     doc:
       type: git
       url: https://github.com/ros2/poco_vendor.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -894,22 +1007,37 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/poco_vendor.git
-      version: master
+      version: crystal
     status: developed
   py_trees:
     doc:
       type: git
-      url: https://github.com/stonier/py_trees.git
-      version: release/1.0.x
+      url: https://github.com/splintered-reality/py_trees.git
+      version: release/1.1.x
     release:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/stonier/py_trees-release.git
-      version: 1.0.0-0
+      version: 1.1.0-0
     source:
       type: git
-      url: https://github.com/stonier/py_trees.git
-      version: release/1.0.x
+      url: https://github.com/splintered-reality/py_trees.git
+      version: release/1.1.x
+    status: developed
+  py_trees_ros_interfaces:
+    doc:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros_interfaces.git
+      version: release/1.1.x
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/stonier/py_trees_ros_interfaces-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros_interfaces.git
+      version: release/1.1.x
     status: developed
   python_qt_binding:
     doc:
@@ -943,7 +1071,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/qt_gui_core-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       test_pull_requests: true
       type: git
@@ -964,7 +1092,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 0.6.4-0
+      version: 0.6.5-0
     source:
       test_commits: false
       type: git
@@ -975,7 +1103,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/rcl_interfaces.git
-      version: master
+      version: crystal
     release:
       packages:
       - action_msgs
@@ -987,25 +1115,26 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_interfaces-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_interfaces.git
-      version: master
+      version: crystal
     status: developed
   rcl_logging:
     release:
       packages:
+      - rcl_logging_log4cxx
       - rcl_logging_noop
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_logging-release.git
-      version: 0.1.0-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/ros2/rcl_logging.git
-      version: master
+      version: crystal
     status: maintained
   rclcpp:
     doc:
@@ -1020,7 +1149,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 0.6.2-0
+      version: 0.6.4-0
     source:
       test_pull_requests: true
       type: git
@@ -1036,7 +1165,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 0.6.1-0
+      version: 0.6.4-0
     source:
       test_pull_requests: true
       type: git
@@ -1047,23 +1176,23 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rcutils-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: master
+      version: crystal
     status: developed
   realtime_support:
     doc:
       type: git
       url: https://github.com/ros2/realtime_support.git
-      version: master
+      version: crystal
     release:
       packages:
       - rttest
@@ -1076,13 +1205,13 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/realtime_support.git
-      version: master
+      version: crystal
     status: developed
   resource_retriever:
     doc:
       type: git
       url: https://github.com/ros/resource_retriever.git
-      version: ros2
+      version: crystal
     release:
       packages:
       - libcurl_vendor
@@ -1095,7 +1224,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/resource_retriever.git
-      version: ros2
+      version: crystal
     status: developed
   rmw:
     doc:
@@ -1148,7 +1277,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       test_pull_requests: true
       type: git
@@ -1182,7 +1311,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_opensplice-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
@@ -1193,7 +1322,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/robot_state_publisher.git
-      version: ros2
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -1203,23 +1332,23 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/robot_state_publisher.git
-      version: ros2
+      version: crystal
     status: developed
   ros1_bridge:
     doc:
       type: git
       url: https://github.com/ros2/ros1_bridge.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/ros1_bridge-release.git
-      version: 0.6.1-1
+      version: 0.6.2-0
     source:
       test_commits: false
       type: git
       url: https://github.com/ros2/ros1_bridge.git
-      version: master
+      version: crystal
     status: developed
   ros2_intel_realsense:
     doc:
@@ -1262,7 +1391,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: master
+      version: crystal
     release:
       packages:
       - ros2cli
@@ -1279,12 +1408,12 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: master
+      version: crystal
     status: maintained
   ros_environment:
     doc:
@@ -1306,23 +1435,23 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/ros_workspace.git
-      version: latest
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/ros_workspace-release.git
-      version: 0.6.0-1
+      version: 0.6.1-0
     source:
       test_commits: false
       type: git
       url: https://github.com/ros2/ros_workspace.git
-      version: latest
+      version: crystal
     status: developed
   rosbag2:
     doc:
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: master
+      version: crystal
     release:
       packages:
       - ros1_rosbag_storage_vendor
@@ -1340,18 +1469,18 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.0.5-0
+      version: 0.0.7-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: master
+      version: crystal
     status: developed
   rosidl:
     doc:
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: master
+      version: crystal
     release:
       packages:
       - rosidl_actions
@@ -1366,18 +1495,18 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: master
+      version: crystal
     status: developed
   rosidl_dds:
     doc:
       type: git
       url: https://github.com/ros2/rosidl_dds.git
-      version: master
+      version: crystal
     release:
       packages:
       - rosidl_generator_dds_idl
@@ -1389,13 +1518,13 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dds.git
-      version: master
+      version: crystal
     status: developed
   rosidl_defaults:
     doc:
       type: git
       url: https://github.com/ros2/rosidl_defaults.git
-      version: master
+      version: crystal
     release:
       packages:
       - rosidl_default_generators
@@ -1408,13 +1537,13 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_defaults.git
-      version: master
+      version: crystal
     status: developed
   rosidl_python:
     doc:
       type: git
       url: https://github.com/ros2/rosidl_python.git
-      version: master
+      version: crystal
     release:
       packages:
       - python_cmake_module
@@ -1422,18 +1551,18 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_python.git
-      version: master
+      version: crystal
     status: developed
   rosidl_typesupport:
     doc:
       type: git
       url: https://github.com/ros2/rosidl_typesupport.git
-      version: master
+      version: crystal
     release:
       packages:
       - rosidl_typesupport_c
@@ -1441,18 +1570,18 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport.git
-      version: master
+      version: crystal
     status: developed
   rosidl_typesupport_connext:
     doc:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_connext.git
-      version: master
+      version: crystal
     release:
       packages:
       - connext_cmake_module
@@ -1466,13 +1595,13 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/ros2/rosidl_typesupport_connext.git
-      version: master
+      version: crystal
     status: developed
   rosidl_typesupport_fastrtps:
     doc:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
-      version: master
+      version: crystal
     release:
       packages:
       - fastrtps_cmake_module
@@ -1486,7 +1615,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
-      version: master
+      version: crystal
     status: developed
   rosidl_typesupport_opensplice:
     doc:
@@ -1523,11 +1652,26 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rqt-release.git
-      version: 1.0.1-0
+      version: 1.0.2-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt.git
+      version: crystal-devel
+    status: maintained
+  rqt_action:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_action.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_action-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_action.git
       version: crystal-devel
     status: maintained
   rqt_console:
@@ -1543,6 +1687,22 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
+      version: crystal-devel
+    status: maintained
+  rqt_graph:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_graph.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_graph-release.git
+      version: 1.0.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_graph.git
       version: crystal-devel
     status: maintained
   rqt_image_view:
@@ -1680,6 +1840,21 @@ repositories:
       url: https://github.com/ros-visualization/rqt_top.git
       version: crystal-devel
     status: maintained
+  rqt_topic:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_topic.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_topic-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_topic.git
+      version: crystal-devel
+    status: maintained
   rviz:
     doc:
       type: git
@@ -1720,53 +1895,70 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/sros2.git
-      version: master
+      version: crystal
     release:
+      packages:
+      - sros2
+      - sros2_cmake
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/sros2-release.git
-      version: 0.6.1-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
+      version: crystal
+    status: developed
+  system_modes:
+    release:
+      packages:
+      - system_modes
+      - system_modes_examples
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/microROS/system_modes-release.git
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/microROS/system_modes.git
       version: master
     status: developed
   teleop_twist_joy:
     doc:
       type: git
       url: https://github.com/ros2/teleop_twist_joy.git
-      version: ros2
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
-      version: 2.1.0-0
+      version: 2.1.1-0
     source:
       type: git
       url: https://github.com/ros2/teleop_twist_joy.git
-      version: ros2
+      version: crystal
     status: maintained
   teleop_twist_keyboard:
     doc:
       type: git
       url: https://github.com/ros2/teleop_twist_keyboard.git
-      version: ros2
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_twist_keyboard-release.git
-      version: 2.1.1-1
+      version: 2.2.0-0
     source:
       type: git
       url: https://github.com/ros2/teleop_twist_keyboard.git
-      version: ros2
+      version: crystal
     status: maintained
   tinydir_vendor:
     doc:
       type: git
       url: https://github.com/ros2/tinydir_vendor.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -1775,13 +1967,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/tinydir_vendor.git
-      version: master
+      version: crystal
     status: maintained
   tinyxml2_vendor:
     doc:
       type: git
       url: https://github.com/ros2/tinyxml2_vendor.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -1790,13 +1982,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/tinyxml2_vendor.git
-      version: master
+      version: crystal
     status: maintained
   tinyxml_vendor:
     doc:
       type: git
       url: https://github.com/ros2/tinyxml_vendor.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -1805,13 +1997,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/tinyxml_vendor.git
-      version: master
+      version: crystal
     status: maintained
   tlsf:
     doc:
       type: git
       url: https://github.com/ros2/tlsf.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -1821,13 +2013,13 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/tlsf.git
-      version: master
+      version: crystal
     status: maintained
   uncrustify_vendor:
     doc:
       type: git
       url: https://github.com/ament/uncrustify_vendor.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -1836,13 +2028,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/uncrustify_vendor.git
-      version: master
+      version: crystal
     status: developed
   unique_identifier_msgs:
     doc:
       type: git
       url: https://github.com/ros2/unique_identifier_msgs.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -1852,13 +2044,13 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/unique_identifier_msgs.git
-      version: master
+      version: crystal
     status: developed
   urdf:
     doc:
       type: git
       url: https://github.com/ros2/urdf.git
-      version: ros2
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -1868,13 +2060,13 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/urdf.git
-      version: ros2
+      version: crystal
     status: developed
   urdfdom:
     doc:
       type: git
       url: https://github.com/ros2/urdfdom.git
-      version: ros2
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -1883,13 +2075,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/urdfdom.git
-      version: ros2
+      version: crystal
     status: maintained
   urdfdom_headers:
     doc:
       type: git
       url: https://github.com/ros/urdfdom_headers.git
-      version: master
+      version: crystal
     release:
       tags:
         release: release/crystal/{package}/{version}
@@ -1899,13 +2091,13 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/ros/urdfdom_headers.git
-      version: master
+      version: crystal
     status: maintained
   variants:
     doc:
       type: git
       url: https://github.com/ros2/variants.git
-      version: master
+      version: crystal
     release:
       packages:
       - desktop
@@ -1919,7 +2111,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/variants.git
-      version: master
+      version: crystal
     status: developed
   vision_opencv:
     doc:
@@ -1951,7 +2143,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/yaml_cpp_vendor.git
-      version: master
+      version: crystal
     status: maintained
 type: distribution
 version: 2
