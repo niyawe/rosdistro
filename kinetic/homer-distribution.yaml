@@ -181,6 +181,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_gripping_msgs-release.git
       version: 1.0.24-0
     status: maintained
+  homer_guiding:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_guiding-release.git
+      version: 0.0.1-1
+    status: maintained
   homer_hardware_state:
     release:
       tags:
