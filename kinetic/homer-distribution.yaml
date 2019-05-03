@@ -637,7 +637,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/vocon_speech_recognizer-release.git
-      version: 0.0.10-0
+      version: 0.0.11-1
     status: maintained
 tags:
 - homer
