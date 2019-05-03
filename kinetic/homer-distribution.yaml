@@ -172,7 +172,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_gripping-release.git
-      version: 1.1.73-1
+      version: 1.1.75-1
     status: maintained
   homer_gripping_msgs:
     release:
@@ -305,7 +305,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_mask_rcnn-release.git
-      version: 0.1.16-0
+      version: 0.1.20-2
     status: maintained
   homer_matrix_creator:
     release:
@@ -340,7 +340,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_navigation-release.git
-      version: 0.1.68-1
+      version: 0.1.69-1
     status: maintained
   homer_object_detection:
     release:
@@ -466,7 +466,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_rgbd_node-release.git
-      version: 0.1.53-1
+      version: 0.1.55-1
     status: maintained
   homer_robbie_architecture:
     release:
