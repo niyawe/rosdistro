@@ -610,6 +610,12 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/lms1xx-release.git
       version: 0.1.30-0
     status: maintained
+  obstacle_detector:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/obstacle_detector-release.git
+      version: 1.0.1-0
   roah_rsbb_comm_ros:
     release:
       tags:
