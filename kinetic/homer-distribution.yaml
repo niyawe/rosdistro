@@ -508,7 +508,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_rviz_plugins-release.git
-      version: 0.10.23-0
+      version: 0.10.24-1
     status: maintained
   homer_scratchy_description:
     release:
