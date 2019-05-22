@@ -291,7 +291,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_mapping-release.git
-      version: 0.1.55-0
+      version: 0.1.57-1
     status: maintained
   homer_maps:
     release:
@@ -480,7 +480,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_robot_face-release.git
-      version: 1.0.29-0
+      version: 1.0.30-1
     status: maintained
   homer_robot_platform:
     release:
@@ -508,7 +508,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_rviz_plugins-release.git
-      version: 0.10.23-0
+      version: 0.10.24-1
     status: maintained
   homer_scratchy_description:
     release:
@@ -617,6 +617,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/lms1xx-release.git
       version: 0.1.30-0
     status: maintained
+  obstacle_detector:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/obstacle_detector-release.git
+      version: 1.0.2-1
+    status: maintained
   roah_rsbb_comm_ros:
     release:
       tags:
@@ -644,7 +651,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/vocon_speech_recognizer-release.git
-      version: 0.0.11-1
+      version: 0.0.12-1
     status: maintained
 tags:
 - homer
