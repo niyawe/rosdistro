@@ -82,7 +82,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_bringup-release.git
-      version: 1.0.45-1
+      version: 1.0.46-0
     status: maintained
   homer_calibration:
     release:
