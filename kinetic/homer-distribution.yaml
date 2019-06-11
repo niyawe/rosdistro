@@ -452,7 +452,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_ptu-release.git
-      version: 0.1.31-0
+      version: 0.1.32-1
     status: maintained
   homer_ptu_msgs:
     release:
