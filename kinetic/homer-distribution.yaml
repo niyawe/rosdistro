@@ -103,7 +103,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@gitlab.uni-koblenz.de:robbie/homer_color_depth_mapper-release.git
-      version: 0.1.38-0
+      version: 0.1.39-1
     status: maintained
   homer_color_recognizer:
     release:
