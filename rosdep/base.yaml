@@ -288,7 +288,7 @@ boost:
     squeeze: [libboost1.42-all-dev]
     stretch: [libboost-all-dev]
     wheezy: [libboost-all-dev]
-  fedora: [boost-devel, boost-python2-devel]
+  fedora: [boost-devel, boost-python2-devel, boost-python3-devel]
   freebsd: [boost-python-libs]
   gentoo: ['dev-libs/boost[python]']
   macports: [boost]
@@ -414,6 +414,10 @@ clang-tidy:
   debian:
     buster: [clang-tidy]
     stretch: [clang-tidy]
+  fedora: [clang-tools-extra]
+  rhel:
+    '*': [clang-tools-extra]
+    '7': null
   ubuntu:
     '*': [clang-tidy]
     trusty: null
@@ -427,6 +431,7 @@ cmake:
   macports: [cmake]
   openembedded: [cmake@openembedded-core]
   opensuse: [cmake]
+  rhel: [cmake3]
   slackware:
     slackpkg:
       packages: [cmake]
@@ -1579,6 +1584,11 @@ libboost-program-options-dev:
   fedora: [boost-devel]
   openembedded: [boost@openembedded-core]
   ubuntu: [libboost-program-options-dev]
+libboost-python:
+  alpine: [boost-python2]
+  debian: [libboost-python-dev]
+  fedora: [boost-python2-devel]
+  ubuntu: [libboost-python-dev]
 libboost-random:
   debian:
     jessie: [libboost-random1.55.0]
@@ -1593,6 +1603,10 @@ libboost-random-dev:
   debian: [libboost-random-dev]
   fedora: [boost-devel]
   ubuntu: [libboost-random-dev]
+libboost-system-dev:
+  debian: [libboost-system-dev]
+  fedora: [boost-system]
+  ubuntu: [libboost-system-dev]
 libcairo2-dev:
   arch: [cairo]
   debian: [libcairo2-dev]
@@ -1625,6 +1639,11 @@ libcegui-mk2-dev:
   fedora: [cegui]
   gentoo: [dev-games/cegui]
   ubuntu: [libcegui-mk2-dev]
+libcereal-dev:
+  debian: [libcereal-dev]
+  fedora: [cereal-devel]
+  gentoo: [dev-libs/cereal]
+  ubuntu: [libcereal-dev]
 libceres-dev:
   debian:
     buster: [libceres-dev]
@@ -1662,9 +1681,7 @@ libconfig-dev:
   gentoo: ['dev-libs/libconfig[cxx]']
   ubuntu: [libconfig-dev]
 libconsole-bridge-dev:
-  alpine:
-    source:
-      uri: 'https://github.com/at-wat/alpine-ros-sources/raw/master/console-bridge/console-bridge.rdmanifest'
+  alpine: [console_bridge-dev]
   arch: [console-bridge]
   debian: [libconsole-bridge-dev]
   fedora: [console-bridge-devel]
@@ -2260,7 +2277,7 @@ libjpeg:
   freebsd: [libjpeg-turbo]
   gentoo: [virtual/jpeg]
   macports: [jpeg]
-  openembedded: [libjpeq-turbo@openembedded-core]
+  openembedded: [jpeg@openembedded-core]
   opensuse: [libjpeg62-devel]
   slackware: [libjpeg-turbo]
   ubuntu:
@@ -2629,6 +2646,7 @@ libopenvdb:
     buster: [libopenvdb3.2]
     jessie: [libopenvdb2.3]
     stretch: [libopenvdb3.2]
+  fedora: [openvdb]
   gentoo: [media-gfx/openvdb]
   ubuntu:
     artful: [libopenvdb3.2]
@@ -2644,6 +2662,7 @@ libopenvdb:
 libopenvdb-dev:
   arch: [openvdb]
   debian: [libopenvdb-dev, libilmbase-dev]
+  fedora: [openvdb-devel]
   gentoo: [media-gfx/openvdb]
   ubuntu: [libopenvdb-dev, libilmbase-dev]
 libosmesa6-dev:
@@ -3018,6 +3037,9 @@ libqt5-core:
   rhel: [qt5-qtbase]
   slackware: [qt5]
   ubuntu: [libqt5core5a]
+libqt5-gstreamer-dev:
+  debian: [libqt5gstreamer-dev]
+  ubuntu: [libqt5gstreamer-dev]
 libqt5-gui:
   arch: [qt5-base]
   debian: [libqt5gui5]
@@ -3146,6 +3168,10 @@ libqwtplot3d-qt4-dev:
   fedora: [qwtplot3d-qt4-devel]
   gentoo: [x11-libs/qwtplot3d]
   ubuntu: [libqwtplot3d-qt4-dev]
+librabbitmq-dev:
+  debian: [librabbitmq-dev]
+  fedora: [librabbitmq-devel]
+  ubuntu: [librabbitmq-dev]
 libraw1394:
   arch:
     pacman:
@@ -3187,6 +3213,10 @@ libreadline-java:
   fedora: [libreadline-java]
   gentoo: [dev-java/libreadline-java]
   ubuntu: [libreadline-java]
+libsecp256k1-dev:
+  debian: [libsecp256k1-dev]
+  fedora: [libsecp256k1-devel]
+  ubuntu: [libsecp256k1-dev]
 libsensors4-dev:
   arch: [lm_sensors]
   debian: [libsensors4-dev]
@@ -3832,6 +3862,8 @@ libzmq3-dev:
   gentoo: [net-libs/cppzmq]
   openembedded: [zeromq@meta-oe]
   ubuntu: [libzmq3-dev]
+libzmqpp-dev:
+  ubuntu: [libzmqpp-dev]
 libzmqpp3:
   gentoo: [net-libs/cppzmq]
   ubuntu: [libzmqpp3]
@@ -3843,6 +3875,10 @@ libzstd-dev:
   ubuntu:
     '*': [libzstd-dev]
     xenial: [libzstd1-dev]
+light-locker:
+  debian: [light-locker]
+  fedora: [light-locker]
+  ubuntu: [light-locker]
 lighttpd:
   debian: [lighttpd]
   fedora: [lighttpd]
@@ -3881,9 +3917,7 @@ log4cplus:
   fedora: [log4cplus-devel]
   ubuntu: [liblog4cplus-dev]
 log4cxx:
-  alpine:
-    source:
-      uri: 'https://github.com/at-wat/alpine-ros-sources/raw/master/log4cxx/log4cxx.rdmanifest'
+  alpine: [log4cxx-dev]
   arch: [log4cxx]
   cygwin: [liblog4cxx-devel]
   debian:
@@ -4597,6 +4631,10 @@ psutils:
   fedora: [psutils]
   gentoo: [psutils]
   ubuntu: [psutils]
+pugixml-dev:
+  debian: [libpugixml-dev]
+  fedora: [pugixml]
+  ubuntu: [libpugixml-dev]
 python-dev:
   debian: [python-dev]
   fedora: [python2-devel]
@@ -4821,6 +4859,10 @@ sdl2:
   fedora: [SDL2-devel]
   gentoo: [media-libs/libsdl2]
   ubuntu: [libsdl2-dev]
+sdl2-mixer:
+  debian: [libsdl2-mixer-dev]
+  fedora: [SDL2_mixer-devel]
+  ubuntu: [libsdl2-mixer-dev]
 sdl2-ttf:
   debian: [libsdl2-ttf-dev]
   fedora: [SDL2_ttf-devel]
