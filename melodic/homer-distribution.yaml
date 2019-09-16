@@ -43,6 +43,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_blue_lisa_moveit_config-release.git
       version: 0.3.8-1
     status: maintained
+  homer_boosting_target_tracking:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_boosting_target_tracking-release.git
+      version: 0.0.6-1
+    status: maintained
   homer_hardware_tools:
     release:
       tags:
