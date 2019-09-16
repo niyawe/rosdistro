@@ -78,6 +78,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_color_depth_mapper-release.git
       version: 0.1.40-1
     status: maintained
+  homer_color_recognizer:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_color_recognizer-release.git
+      version: 0.1.39-1
+    status: maintained
   homer_hardware_tools:
     release:
       tags:
