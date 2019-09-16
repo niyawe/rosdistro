@@ -18,6 +18,17 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/atwork_refbox_comm-release.git
       version: 0.1.9-1
     status: maintained
+  driver_common:
+    release:
+      packages:
+      - driver_base
+      - driver_common
+      - timestamp_tools
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/driver_common-release.git
+      version: 1.6.8-1
+    status: maintained
   homer_tools:
     release:
       tags:
