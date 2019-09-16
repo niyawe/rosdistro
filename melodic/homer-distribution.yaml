@@ -13,6 +13,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_tools-release.git
       version: 0.1.5-1
     status: maintained
+  roah_rsbb_comm_ros:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/at_home_rsbb_comm_ros-release.git
+      version: 0.0.6-1
+    status: maintained
 tags:
 - homer
 type: distribution
