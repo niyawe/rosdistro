@@ -64,6 +64,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_calibration-release.git
       version: 0.0.6-1
     status: maintained
+  homer_cfr_grammar_parser:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_cfr_grammar_parser-release.git
+      version: 0.0.1-1
+    status: maintained
   homer_hardware_tools:
     release:
       tags:
