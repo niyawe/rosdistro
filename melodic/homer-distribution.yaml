@@ -57,6 +57,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_lisa_description-release.git
       version: 0.0.4-1
     status: maintained
+  homer_pcl_people_detection:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_pcl_people_detection-release.git
+      version: 1.0.7-1
+    status: maintained
   homer_robbie_architecture:
     release:
       tags:
