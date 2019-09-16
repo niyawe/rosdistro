@@ -50,6 +50,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_boosting_target_tracking-release.git
       version: 0.0.6-1
     status: maintained
+  homer_bringup:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_bringup-release.git
+      version: 1.0.57-1
+    status: maintained
   homer_hardware_tools:
     release:
       tags:
