@@ -57,6 +57,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_lisa_description-release.git
       version: 0.0.4-1
     status: maintained
+  homer_robbie_architecture:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_robbie_architecture-release.git
+      version: 1.0.2-1
+    status: maintained
   homer_tools:
     release:
       tags:
