@@ -6,6 +6,18 @@ release_platforms:
   ubuntu:
   - bionic
 repositories:
+  atwork_refbox_comm:
+    release:
+      packages:
+      - atwork_pb_msgs
+      - atwork_refbox_comm
+      - atwork_ros_msgs
+      - protobuf_comm
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/atwork_refbox_comm-release.git
+      version: 0.1.9-1
+    status: maintained
   homer_tools:
     release:
       tags:
