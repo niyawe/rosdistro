@@ -6,6 +6,13 @@ release_platforms:
   ubuntu:
   - bionic
 repositories:
+  homer_tools:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_tools-release.git
+      version: 0.1.5-1
+    status: maintained
 tags:
 - homer
 type: distribution
