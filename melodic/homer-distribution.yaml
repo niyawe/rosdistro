@@ -92,6 +92,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/homer_display-release.git
       version: 0.0.2-1
     status: maintained
+  homer_estop:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_estop-release.git
+      version: 0.0.5-1
+    status: maintained
   homer_hardware_tools:
     release:
       tags:
