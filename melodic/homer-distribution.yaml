@@ -29,6 +29,13 @@ repositories:
       url: git@gitlab.uni-koblenz.de:robbie/driver_common-release.git
       version: 1.6.8-1
     status: maintained
+  homer_hardware_tools:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.uni-koblenz.de:robbie/homer_hardware_tools-release.git
+      version: 0.1.30-1
+    status: maintained
   homer_tools:
     release:
       tags:
